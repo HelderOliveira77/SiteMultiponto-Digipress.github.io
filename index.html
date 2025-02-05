@@ -1,111 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <style>
-
-
+  <style>
     .topo {
-        padding: 15px 15px 10px 35px;
-        display: flex;
-        justify-content: left;
-        /* text-align: center;
+      padding: 15px 15px 10px 35px;
+      display: flex;
+      justify-content: left;
+      /* text-align: center;
         /*background-color: green;
         /* background-image: url("images/sunset.png"); */
-        background-image: linear-gradient( to right, white , black  );
-      }
+      background-image: linear-gradient(to right, white, black);
+    }
 
-      .texto_cabecalho {
-        position: relative;
-        left: 1300px;
-        top: 15px;
-        justify-content: right; 
-        font-size: 21px;
-        color: white;
-        text-decoration: none;
-        text-align: right;
-        /*background-color: green; */
-      }
-      .icone_home {
-        position: absolute;
-        left: 1870px;
-        top: 30px;
-      }
+    .texto_cabecalho {
+      position: relative;
+      left: 1300px;
+      top: 15px;
+      justify-content: right;
+      font-size: 21px;
+      color: white;
+      text-decoration: none;
+      text-align: right;
+      /*background-color: green; */
+    }
 
-      </style>
+    .icone_home {
+      position: absolute;
+      left: 1870px;
+      top: 30px;
+    }
+
+    .texto_Rotulos {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 45px;
+      text-align: left;
+      letter-spacing: 2px;
+      line-height: 40px;
+      color: black;
+    }
+
+    .texto_Rotulos_v2 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-transform: uppercase;
+      font-size: 22px;
+      text-align: left;
+      letter-spacing: 1px;
+      line-height: -50px;
+      color: #867d7d;
+    }
+  </style>
+
+  <!-- CABEÇALHO - TODOS OS ELEMENTOS -->
+  <header>
+    <div class='topo'>
+      <img src="wp-content/logo multiponto_pequeno.png" width="270" height="51" /> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+      &nbsp; &nbsp;
+      <img src="wp-content/logo digipress New_pequeno.png" width="260" height="50" />
+      <div>
 
 
-    <header>
-        <div class='topo'> 
-            <img src="wp-content/logo multiponto_pequeno.png" width="270" height="51"  /> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
-            <img src="wp-content/logo digipress New_pequeno.png" width="260" height="50" />
-            <div>
+        <a href="index.html" class="icone_home"> <img src="wp-content/icone HOME White.png" /> </a> &nbsp; &nbsp; &nbsp;
+        &nbsp; &nbsp;
+        <a href="Multiponto.html" class="texto_cabecalho"> Multiponto </a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#" class="texto_cabecalho"> Digipress </a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#" class="texto_cabecalho"> Contactos </a> &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#" class="texto_cabecalho"> Serviços </a>
+      </div>
+    </div>
+    </div>
+  </header>
 
+  <!-- COLOCAR DATA ATUAL -->
+  <h3 style="font-size:11px; color: #A4A4A4;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
-            <a href="#" class="icone_home"> <img src="wp-content/icone HOME White.png"/> </a>  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
-            <a href="Multiponto" class="texto_cabecalho"> Multiponto </a> &nbsp;&nbsp;  &nbsp; &nbsp; &nbsp;
-            <a href="#" class="texto_cabecalho"> Digipress </a>  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-            <a href="#" class="texto_cabecalho"> Contactos </a>  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;
-            <a href="#" class="texto_cabecalho"> Serviços </a>  
-          </div>
-          </div>
-        </div>
-      </header>
-
-    <!-- COLOCAR DATA ATUAL -->
-    <h3 style="font-size:11px; color: #A4A4A4;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-       
     <script type="text/javascript">
-    var currentTime = new Date()
-    var horas = currentTime.getHours();
-    var minutos = currentTime.getMinutes();
-    var segundos = currentTime.getSeconds(); 
-    var dia = currentTime.getDate(); 
-    var mes = currentTime.getMonth();
-    var ano = currentTime.getFullYear();  
-    var Dia = currentTime.getDay(); 
-    var Mes = currentTime.getUTCMonth();
-    
-    if (minutos < 10)
-    minutos = "0" + minutos
-    if (segundos < 10)
-    segundos = "0" + segundos
-    if (dia < 10)
-    dia = "0" + dia
-    if (mes < 10)
-    mes = "0" + mes
-    
-    arrayDia = new Array();
-       arrayDia[0] = "Domingo";
-       arrayDia[1] = "Segunda-Feira";
-       arrayDia[2] = "Terça-Feira";
-       arrayDia[3] = "Quarta-Feira";
-       arrayDia[4] = "Quinta-Feira";
-       arrayDia[5] = "Sexta-Feira";
-       arrayDia[6] = "Sábado";
-    
-    var arrayMes = new Array();
-       arrayMes[0] = "Janeiro";
-       arrayMes[1] = "Fevereiro";
-       arrayMes[2] = "Março";      
-       arrayMes[3] = "Abril";
-       arrayMes[4] = "Maio";
-       arrayMes[5] = "Junho";
-       arrayMes[6] = "Julho";
-       arrayMes[7] = "Agosto";
-       arrayMes[8] = "Setembro";
-       arrayMes[9] = "Outubro";
-       arrayMes[10] = "Novembro";
-       arrayMes[11] = "Dezembro";
-    document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
+      var currentTime = new Date()
+      var horas = currentTime.getHours();
+      var minutos = currentTime.getMinutes();
+      var segundos = currentTime.getSeconds();
+      var dia = currentTime.getDate();
+      var mes = currentTime.getMonth();
+      var ano = currentTime.getFullYear();
+      var Dia = currentTime.getDay();
+      var Mes = currentTime.getUTCMonth();
+
+      if (minutos < 10)
+        minutos = "0" + minutos
+      if (segundos < 10)
+        segundos = "0" + segundos
+      if (dia < 10)
+        dia = "0" + dia
+      if (mes < 10)
+        mes = "0" + mes
+
+      arrayDia = new Array();
+      arrayDia[0] = "Domingo";
+      arrayDia[1] = "Segunda-Feira";
+      arrayDia[2] = "Terça-Feira";
+      arrayDia[3] = "Quarta-Feira";
+      arrayDia[4] = "Quinta-Feira";
+      arrayDia[5] = "Sexta-Feira";
+      arrayDia[6] = "Sábado";
+
+      var arrayMes = new Array();
+      arrayMes[0] = "Janeiro";
+      arrayMes[1] = "Fevereiro";
+      arrayMes[2] = "Março";
+      arrayMes[3] = "Abril";
+      arrayMes[4] = "Maio";
+      arrayMes[5] = "Junho";
+      arrayMes[6] = "Julho";
+      arrayMes[7] = "Agosto";
+      arrayMes[8] = "Setembro";
+      arrayMes[9] = "Outubro";
+      arrayMes[10] = "Novembro";
+      arrayMes[11] = "Dezembro";
+      document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
     </script>
-    </h3>
-        
-    
+  </h3>
+
+  <!-- PRIMEIRA INFORMAÇÂO MAIOR -->
+  <table align="center" cellspacing="0" cellpadding="30"   >
+    <tr>
+      <td>
+        <p class="texto_Rotulos"> Rótulos e Etiquetas &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </p>
+      </td> <!-- linha 1, célula 1 -->
+      <td>
+        <p class="texto_Rotulos"> Impressão Offset &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+      </td> <!-- linha 1, célula 2 -->
+      <td>
+        <p class="texto_Rotulos"> Impressão Digital &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+      </td> <!-- linha 1, célula 3 -->
+    </tr>
+    <tr>
+      <td>
+        <p class="texto_Rotulos_v2"> VÁRIOS TIPOS DE ACABAMENTO &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+      </td> <!-- linha 2, célula 1 -->
+      <td>
+        <p class="texto_Rotulos_v2"> ROTATIVA | PLANA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+      </td> <!-- linha 2, célula 2 -->
+      <td>
+        <p class="texto_Rotulos_v2"> PEQUENOS E GRANDES FORMATOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
+      </td> <!-- linha 2, célula 3 -->
+    </tr>
+  </table>
+
+
+
+
+
 </body>
+
 </html>
