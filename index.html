@@ -4,25 +4,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="max-image-preview:large">
-  <style>
-    img:is([sizes="auto" i], [sizes^="auto," i]) {
-      contain-intrinsic-size: 3000px 1500px
-    }
+
+  <!-- <meta name="robots" content="max-image-preview:large"> -->
+
   </style>
   <title>Document</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="dns-prefetch" href="//use.fontawesome.com">
+  <!-- <link rel="dns-prefetch" href="//use.fontawesome.com"> -->
   <link rel="alternate" type="application/rss+xml" title="Multiponto 02 &raquo; Feed"
     href="https://https://github.com/HelderOliveira77/site.github.io/feed/">
   <link rel="alternate" type="application/rss+xml" title="Multiponto 02 &raquo; Comments Feed"
     href="https://https://github.com/HelderOliveira77/site.github.io/comments/feed/">
-  <script> src="js/scripts.js" </script>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link rel=”stylesheet”
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
+    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
 
 </head>
 
 <body>
-  
+
 
 
   <!-- HTML -->
@@ -139,50 +140,66 @@
 
   <!-- INFORMAÇÂO QUADRO +INFO -->
   <table align="center" cellspacing="0" cellpadding="20"
-    style="background-color:#cfcabe57;margin-top:-22px;padding-right:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)">
+    style="background-color:#cfcabe57;margin-top:-22px; width:100%;">
 
-    <tr> <!-- Primeira linha da tabela -->
-      <td>
-        
+    <!-- PRIMEIRA LINHA -->
+
+    <tr align="center"> <!-- Primeira linha da tabela -->
+      <td style="width:400px" >
         <p> <a href="#" target="_blank" class="texto_Mais_Info"> Pré-Impressão</a> </p>
-
-        <a onclick="read_toggle(2119574720, '+ INFO', '- INFO'); return false;" class="read-link"
-            id="readlink2119574720" style="https://https://github.com/HelderOliveira77/site.github.io/readlink"
-            href="#">+ INFO</a>
-         class="read_div" id="read2119574720" style="display: none;">
-          <p style="margin-top:15px; text-align: justify; font-size: 14.5px; "> Meios técnicos de tratamento e limpeza
-            de todo o tipo de imagens, imposição e provas de cor certificadas.</p>
-        
-
-
-
-
+        <details class="collapse">
+          <summary class="button">INFO</summary>
+          <div class="description"> <p class="texto_Mais_Info_v2"> Meios técnicos de tratamento e limpeza de todo o tipo de imagens, imposição e provas de cor certificadas. </p> </div>
+        </details>
       </td> <!-- linha 1, célula 1 -->
-      <td>
 
-
+      <!-- SEGUNDA COLUNA -->
+      <td style="width:800px">
+        <p> <a href="#" target="_blank" class="texto_Mais_Info"> Impressão digital Pequeno/Grande Formato</a> </p>
+        <details class="collapse">
+          <summary class="button">INFO</summary>
+          <div class="description">Pequenos formatos, ideais para personalizações e impressão de pequenas quantidades.
+            Impressão em papel IOR, couchés, fine papers e acetatos, com uma gramagem máxima até 300 grs. <br>
+            Grandes formatos, vários materiais e acabamentos desde a lona, a tela artística, o papel simples ou
+            fotográfico, autocolante, vinil, laminação brilhante ou matte, contra colagens em PVC, micro onda, K-Mount e
+            corte de Plotter.
+          </div>
+        </details>
       </td> <!-- linha 1, célula 2 -->
 
+      <!-- TERCEIRA COLUNA -->
+      <td style="width:400px">
+        <p> <a href="#" target="_blank" class="texto_Mais_Info"> Rotativa</a> </p>
+        <details class="collapse">
+          <summary class="button">INFO</summary>
+          <div class="description">Duas máquinas rotativas com impressão a 4 cores frente e verso usando papel em
+            bobine, sendo direccionadas para médias e grandes tiragens possibilitando a impressão de brochuras,
+            folhetos, revistas, livros, entre outros.
+          </div>
+        </details>
+      </td> <!-- linha 1, célula 3 -->
+
+
+
+
+
+
+
+
+
+    </tr>
 
   </table>
 
 
 
-<div class="card">
-  <div class="icon">
-    <img src="wp-content/icone HOME White.png" alt="">
-  </div>
-    <div class="content">
-      <h3> Pré-Impressão</h3>
-      <p> Meios técnicos de tratamento e limpeza de todo o tipo de imagens, imposição e provas de cor certificadas.</p>
-</div>
-
-  <button id="read_button"> LER MAIS </button>
-</div>
 
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 
-<script src="js/scripts.js" > </script>
+  <script src="js/scripts.js"> </script>
 
 </body>
 

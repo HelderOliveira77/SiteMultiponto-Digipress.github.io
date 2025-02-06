@@ -1,12 +1,12 @@
 var button = document.getElementById('read_button');
 
-button.addEventListener('click', function() {
+button.addEventListener('click', function () {
   var card = document.querySelector('.card');
   card.classList.toggle('active');
   if (card.classList.contains('active')) {
-    return button.textContent = 'Real less';
+    return button.textContent = '- INFO';
   }
-  button.textContent = 'Read more';
-  
+  button.textContent = '+ INFO';
+}
+)
 
-})
