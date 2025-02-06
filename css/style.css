@@ -24,7 +24,7 @@
       font-family: 'Arial Narrow', Arial, sans-serif;
       justify-content: center;
       font-size: 30px;
-      color: black;
+      color:#454242;
       text-decoration: none;
       text-align: left;
       text-transform: uppercase;
@@ -32,14 +32,14 @@
     }
 
     .texto_Mais_Info_v2 {
-      font-family:Helvetica, sans-serif;
+      font-family:'Trebuchet MS', sans-serif;
       justify-content: left;
-      font-size: 12px;
+      font-size: 15.5px;
       color: black;
       text-decoration: none;
-      text-align: left;
+      text-align: center;
       /* text-transform: uppercase; */
-      letter-spacing: 2px;
+      letter-spacing: 0px;
     }
 
     .icone_home {
@@ -87,7 +87,7 @@
       margin-right: 500px;
     }
 
-
+/* 
     .card {
       display:contents;
     } 
@@ -96,7 +96,7 @@
       height: 0px; 
       overflow: hidden;
       position: relative;
-    }
+    } */
 
 
     /* .content::before {
@@ -122,7 +122,7 @@
       border-radius: 4px;
     } */
 
-  .botao_Mais_Info {
+  /* .botao_Mais_Info {
     font-family: 'Arial Narrow', Arial, sans-serif;
     justify-content: center;
     font-size: 16px;
@@ -132,7 +132,7 @@
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
-  }
+  } */
 
 #read_button {
   border: none;
@@ -160,9 +160,181 @@
   visibility:hidden;
 }
 
+.texto_Descrição_Empresas {
+  font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  font-size: 22.5px;
+  color:#454242;
+  text-decoration: none;
+  text-align: justify;
+  text-transform:none;
+  letter-spacing: 0px;
+  margin-left: 800px;
+  margin-right: 800px;
+  line-height: 1.6;
+}
+
+.logo_Centrado_Multi {
+  align-items: center;
+  align-content: center;
+  margin-top: 60px;
+  margin-left: 1050px;
+  margin-right: 1000px;
+}
+
+.logo_Centrado_Digi {
+  align-items: center;
+  align-content: center;
+  margin-top: 40px;
+  margin-left: 1110px;
+  margin-right: 1000px;
+}
+
+/* * { margin: 0; padding: 0; } */
+/* SLIDE HOME */
+.slider_home {
+  display: block;
+  height: 300px;
+  width: 800px;
+  margin: auto;
+  margin-top: 55px;
+  position: relative;
+}
+
+.slider_home li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider_home img {
+  margin: auto; 
+  /* margin-left: 0px;
+  margin-right: 500px; */
+  height: 120%;
+  width: 100%;
+  vertical-align: top;
+  
+}
+
+.slider_home input {
+  display: none;
+}
+
+.slider_home label {
+  background-color: white;
+  bottom: 10px;
+  cursor:pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+}
+
+.slider_home li:nth-child(1) label {
+  left: 10px;
+}
+
+.slider_home li:nth-child(2) label {
+  left: 40px;
+}
+
+.slider_home li:nth-child(3) label {
+  left: 70px;
+}
+
+.slider_home li:nth-child(4) label {
+  left: 100px;
+}
+.slider_home li:nth-child(5) label {
+  left: 130px;
+}
 
 
-    
+.slider_home img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider_home li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+.footer_modelo {
+width: 100%;
+margin-top: 100px;
+/* align-content: top; */
+/* background-color: #CFCABE; */
+}
+
+.texto_rodape {
+  font-family: Arial, sans-serif;
+  font-size: 14.5px;
+  text-align: left;
+  letter-spacing: 0px;
+  line-height: 21px;
+  color: #636363;
+}
+
+
+table#rodape {
+  /* border: 1px solid black; */
+  border-spacing: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 180px;
+  table-layout: fixed;
+  background-color: #CFCABE;
+  vertical-align: top;
+}
+
+/* FORMULARIO */
+.formulario_contacto{
+  width: 400px;
+  padding: 5px;
+  border:0px solid #ccc;
+  margin-left: 150px;
+}
+.formulario_contacto p{
+  width: 100%;
+  font-size: 30px;
+}
+.field_contacto{
+  width: 500px;
+  margin: 20px ;
+}
+
+.field_contacto label, 
+.field_contacto span{
+    padding-left: 0px;
+    font-size: 15px;
+    display: block;
+    width: 500px; 
+    margin-bottom: 8px; 
+}
+
+.radiobox label{
+  width: auto;
+  display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 1400px;
+    padding-left: 5px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+
 
 
 
