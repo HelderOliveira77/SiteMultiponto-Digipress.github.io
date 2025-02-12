@@ -8,6 +8,10 @@
       background-image: linear-gradient(to right, white, black);
     }
 
+    .meia_linha {
+      line-height: 1px;
+    }
+
     .texto_cabecalho {
       position: relative;
       left: 1300px;
@@ -161,16 +165,17 @@
 }
 
 .texto_Descrição_Empresas {
-  font-family:Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* font-family:Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-family: 'Arial Narrow', Arial, sans-serif;
   justify-content: center;
   font-size: 22.5px;
   color:#454242;
   text-decoration: none;
   text-align: justify;
   text-transform:none;
-  letter-spacing: 0px;
-  margin-left: 800px;
-  margin-right: 800px;
+  letter-spacing: 0.5px;
+  margin-left: 850px;
+  margin-right: 850px;
   line-height: 1.6;
 }
 
@@ -365,3 +370,12 @@ input#nao{
 }
 
 
+
+
+/*--------------------------------------------- */
+/*-------- CARROSSEL MULTIPONTO---------------- */
+/*--------------------------------------------- */
+/* .carousel-item {
+max-width: 100px;
+background-color: aqua;
+}  */
