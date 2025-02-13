@@ -370,6 +370,37 @@ input#nao{
 }
 
 
+.texto_Servicos_Multiponto {
+  font-family:'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 26px;
+  text-align: center;
+  letter-spacing: 1.25px;
+  line-height: 2px;
+  color: black;
+}
+
+/* .google_translate_element {
+  display: none;
+} */
+
+
+
+.texto_Descricao_Pagina_Multiponto {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  font-size: 22.5px;
+  color:#454242;
+  text-decoration: none;
+  text-align: justify;
+  text-transform:none;
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+
+}
+
+
+
 
 
 /*--------------------------------------------- */
