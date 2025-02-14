@@ -5,9 +5,9 @@
       /* text-align: center;
         /*background-color: green;
         /* background-image: url("images/sunset.png"); */
-      background-image: linear-gradient(to right, white, black);
+      /* background-image: linear-gradient(to right, white, black); */
       /* background-color: #CFCABE; */
-      /* background-color: #cfcabe57; */
+      background-color: #cfcabe57;
     }
 
     .meia_linha {
@@ -21,8 +21,8 @@
       top: 15px;
       justify-content: right;
       font-size: 21px;
-      /* color:black; */
-      color: white;
+      color:black;
+      /* color: white; */
       text-decoration: none;
       text-align: right;
       /*background-color: green; */
@@ -95,52 +95,9 @@
       margin-right: 500px;
     }
 
-/* 
-    .card {
-      display:contents;
-    } 
-
-    .content {
-      height: 0px; 
-      overflow: hidden;
-      position: relative;
-    } */
 
 
-    /* .content::before {
-      content: '';
-      position: absolute;
-      bottom: 0px;
-      width: 100%;
-      height: 100%;
-    } */
 
-    /* .content h3 {
-        text-align: center;
-        margin-bottom: 15px;
-    }
-
-    .content h3::before {
-      content: '';
-      position: absolute;
-      height: 2px;
-      width: 40px;
-      background-color: #867d7d;
-      bottom: 4px;
-      border-radius: 4px;
-    } */
-
-  /* .botao_Mais_Info {
-    font-family: 'Arial Narrow', Arial, sans-serif;
-    justify-content: center;
-    font-size: 16px;
-    color:#867d7d;
-    text-decoration: none;
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-  } */
 
 #read_button {
   border: none;
@@ -381,7 +338,8 @@ input#nao{
   text-align: center;
   letter-spacing: 1.25px;
   line-height: 2px;
-  color: black;
+  color:#636363;
+  
 }
 
 /* .google_translate_element {
@@ -427,6 +385,18 @@ input#nao{
   text-transform: uppercase;
   letter-spacing: 0px;
 } */
+
+
+
+.botao_orçamento{
+  background-color:#ccc;
+  color: white;
+  align-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+          }
 
 
 /*--------------------------------------------- */
