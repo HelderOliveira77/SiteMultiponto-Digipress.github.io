@@ -12,6 +12,7 @@
       line-height: 1px;
     }
 
+
     .texto_cabecalho {
       position: relative;
       left: 1300px;
@@ -401,7 +402,107 @@ input#nao{
 
 
 
+.texto_Contactos {
+  font-family:'AvenirLight';
+  justify-content: left;
+  font-size: 25px;
+  color:#454242;
+  text-decoration: none;
+  text-align: left;
+  /* text-transform: uppercase; */
+  letter-spacing: 0px;
+  margin-left: 180px;
+  font-weight: lighter;
+}
+/* .texto_Contactos_Descricao {
+  font-family:'InterRegular';
+  justify-content: left;
+  font-size: 30px;
+  color:#454242;
+  text-decoration: none;
+  text-align: left;
+  /* text-transform: uppercase; */
+  letter-spacing: 0px;
 
+} */
+
+
+/*--------------------------------------------- */
+/*----------------- FONTES -------------------- */
+/*--------------------------------------------- */
+
+@font-face {
+  font-family: 'FuturaLight';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/futura light bt.ttf");
+}
+@font-face {
+  font-family: 'FuturaBook';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura Book font.ttf");
+}
+@font-face {
+  font-family: 'FuturaMedium';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/futura medium bt.ttf");
+}
+@font-face {
+  font-family: 'FuturaHeavy';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura Heavy font.ttf");
+}
+@font-face {
+  font-family: 'FuturaLightCondensada';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura-CondensedLight.otf");
+}
+/* AVENIR */
+@font-face {
+  font-family: 'AvenirLight';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProLight.otf");
+}
+@font-face {
+  font-family: 'AvenirRegular';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProRoman.otf");
+}
+@font-face {
+  font-family: 'AvenirBook';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProBook.otf");
+}
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProMedium.otf");
+}
+@font-face {
+  font-family: 'AvenirHeavy';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProHeavy.otf");
+}
+/* ARCHIVO NARROW */
+@font-face {
+  font-family: 'ArchivoNarrow';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/ArchivoNarrow/ArchivoNarrow-Regular.otf");
+}
+@font-face {
+  font-family: 'ArchivoNarrowBold';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/ArchivoNarrow/ArchivoNarrow-Bold.otf");
+}
+/* INTER */
+@font-face {
+  font-family: 'InterRegular';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-Regular.woff2");
+}
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-SemiBold.woff2");
+}
+@font-face {
+  font-family: 'InterBold';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-Bold.woff2");
+}
+/* FREE SANS */
+@font-face {
+  font-family: 'FreeSans';
+  src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/FreeSans.ttf");
+}
+
+/*--------------------------------------------- */
+/*----------------- FONTES -------------------- */
+/*--------------------------------------------- */
 
 /*--------------------------------------------- */
 /*-------- CARROSSEL MULTIPONTO---------------- */
