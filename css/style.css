@@ -6,6 +6,8 @@
         /*background-color: green;
         /* background-image: url("images/sunset.png"); */
       background-image: linear-gradient(to right, white, black);
+      /* background-color: #CFCABE; */
+      /* background-color: #cfcabe57; */
     }
 
     .meia_linha {
@@ -19,6 +21,7 @@
       top: 15px;
       justify-content: right;
       font-size: 21px;
+      /* color:black; */
       color: white;
       text-decoration: none;
       text-align: right;
@@ -410,7 +413,7 @@ input#nao{
   text-decoration: none;
   text-align: left;
   /* text-transform: uppercase; */
-  letter-spacing: 0px;
+  letter-spacing: 0.5px;
   margin-left: 180px;
   font-weight: lighter;
 }
@@ -421,9 +424,8 @@ input#nao{
   color:#454242;
   text-decoration: none;
   text-align: left;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
   letter-spacing: 0px;
-
 } */
 
 
