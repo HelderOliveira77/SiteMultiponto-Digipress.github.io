@@ -492,7 +492,7 @@ background-color: aqua;
 
 
 
-.carousel-caption {
+/* .carousel-caption {
   color: black;
 }
 
@@ -503,10 +503,16 @@ background-color: aqua;
   border: 2px solid red;
   background: cover;
 }
+*/
 
-
-.carrossel_imagens {
-text-align: center;
-width: 100%;
-height: 120px;
+.carousel slide_meu {
+  animation: moveToRight 3s linear; 
+  transition: 10ms;
+  transform: translateX(300px);
+  background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
+
+
+
+
+
