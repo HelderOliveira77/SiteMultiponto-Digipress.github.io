@@ -1,7 +1,7 @@
     .topo {
       padding: 15px 15px 10px 35px;
-      display: flex;
-      justify-content: left;
+      /* display: flex;
+      justify-content: left; */
       /* text-align: center;
         /*background-color: green;
         /* background-image: url("images/sunset.png"); */
@@ -18,14 +18,15 @@
 
     .texto_cabecalho {
       position: relative;
-      left: 1300px;
+      /* left: 1300px; */
       top: 15px;
       justify-content: right;
       font-size: 21px;
+      /* font-weight: bold; */
       color:black;
       /* color: white; */
       text-decoration: none;
-      text-align: right;
+      text-align: center;
       /*background-color: green; */
     }
 
@@ -58,7 +59,7 @@
 
     .icone_home {
       position: absolute;
-      left: 1870px;
+      /* left: 1870px; */
       top: 30px;
     }
 
