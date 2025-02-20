@@ -134,23 +134,27 @@
 .texto_Descrição_Empresas {
   /* font-family:Cochin, Georgia, Times, 'Times New Roman', serif; */
   font-family: 'Arial Narrow', Arial, sans-serif;
-  justify-content: center;
+  /* justify-content: center;
+  display: flex; */
   font-size: 22.5px;
   color:#454242;
   text-decoration: none;
   text-align: justify;
   text-transform:none;
   letter-spacing: 0.5px;
-  margin-left: 850px;
-  margin-right: 850px;
+  margin-left: 840px;
+  margin-right: 840px;
   line-height: 1.6;
+  /* padding-left: 850px;
+  padding-right: 850px; */
+  width: 850px;
 }
 
 .logo_Centrado_Multi {
   align-items: center;
   align-content: center;
   margin-top: 60px;
-  margin-left: 1050px;
+  margin-left: 1080px;
   margin-right: 1000px;
 }
 
@@ -263,18 +267,29 @@ table#rodape {
   vertical-align: top;
 }
 
+/* NOVO FORMULARIO Elfsight */
+/* ################################## */
+.formulario_contacto_Elfsight{
+  width: 1400px;
+  /* padding: 0px; */
+  /* border:0px solid #ccc; */
+  margin-left: 145px; 
+}
+/* ################################# */
+
+
 /* FORMULARIO */
 .formulario_contacto{
-  width: 400px;
+  /* width: 400px; */
   padding: 0px;
   border:0px solid #ccc;
-  margin-left: 120px;
+  margin-left: 145px;
 }
 .formulario_contacto p{
   width: 100%;
 }
 .field_contacto{
-  width: 500px;
+  width: 1000px;
   margin: 20px ;
 }
 
@@ -290,7 +305,7 @@ table#rodape {
     margin-bottom: 8px; 
 }
 
-.radiobox label{
+.radiobox label{ */
   width: auto;
   display: inline-block;
 }
