@@ -67,7 +67,7 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
       font-size: 45px;
-      text-align: left;
+      text-align: center;
       letter-spacing: 2px;
       line-height: 45px;
       color: black;
@@ -79,11 +79,13 @@
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       text-transform: uppercase;
       font-size: 22px;
-      text-align: left;
+      text-align: center;
       letter-spacing: 1px;
       line-height: 30px;
       color: #867d7d;
     }
+
+
 
     .deslizante {
       font-size: 22px;
@@ -98,7 +100,7 @@
       font-kerning: normal;
       letter-spacing: 1px;
       position: relative;
-      bottom: 0em;
+      bottom: -0.4em;
       margin-left: 500px;
       margin-right: 500px;
     }
@@ -144,8 +146,8 @@
   text-align: justify;
   text-transform:none;
   letter-spacing: 0.5px;
-  margin-left: 840px;
-  margin-right: 840px;
+  /* margin-left: 840px;
+  margin-right: 840px; */
   line-height: 1.6;
   /* padding-left: 850px;
   padding-right: 850px; */
@@ -153,19 +155,19 @@
 }
 
 .logo_Centrado_Multi {
-  align-items: center;
-  align-content: center;
+  /* align-items: center;
+  align-content: center; */
   margin-top: 60px;
-  margin-left: 1080px;
-  margin-right: 1000px;
+  /* margin-left: 1080px;
+  margin-right: 1000px; */
 }
 
 .logo_Centrado_Digi {
-  align-items: center;
-  align-content: center;
+  /* align-items: center;
+  align-content: center; */
   margin-top: 40px;
-  margin-left: 1110px;
-  margin-right: 1000px;
+  /* margin-left: 1110px;
+  margin-right: 1000px; */
 }
 
 /* * { margin: 0; padding: 0; } */
