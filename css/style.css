@@ -17,15 +17,16 @@
 
 
     .texto_cabecalho {
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
       position: relative;
       /* left: 1300px; */
-      top: 15px;
+      top: 10px;
       justify-content: right;
-      font-size: 21px;
+      font-size: 22px;
       /* font-weight: bold; */
       color:black;
       /* color: white; */
-      text-decoration: none;
+      text-decoration:underline;
       text-align: center;
       /*background-color: green; */
     }
@@ -532,6 +533,17 @@ background-color: aqua;
 }
 
 
+
+  .blink {
+    animation: blinker 4s linear infinite;
+    color: black;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    40% {
+        opacity: 30%;
+    }
+  }
 
 
 
