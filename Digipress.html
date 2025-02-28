@@ -2,297 +2,272 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- <meta name="robots" content="max-image-preview:large"> -->
+  <!-- <meta name="robots" content="max-image-preview:large"> -->
+  <title>DIGIPRESS</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel=”stylesheet”
+    href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
+    integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
 
-    <title>DIGIPRESS</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel=”stylesheet”
-        href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel=”nofollow”
-        integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>
-
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
 <body>
-    <!-- CABEÇALHOS -->
-    <header>
-        <div class='topo' style="margin-top: 5px; margin-left: 5px; margin-right: 5px;">
-          <div class="row">
-            <div class="col-1" style="display:contents;">
-              <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="51" style="padding-right: 50px;" />
-            </div>
-    
-            <div class="col-1" style="display: contents;">
-              <img src="wp-content/logo digipress New_pequeno.png" width="auto" height="50" />
-            </div>
-            <div class="col">
-    
-            </div>
-            <div class="col">
-    
-            </div>
-            <div class="col">
-    
-            </div>
-            <div class="col">
-    
-            </div>
-            <div class="col">
-    
-            </div>
-            <div class="col">
-            </div>
-            <div class="col">
-            </div>
-            <div class="col">
-            </div>
-            <div class="col">
-              <a href="index.html" class="icone_home" style="margin-top: -22px;"> <img
-                  src="wp-content/icone HOME Black.png" /> </a>
-            </div>
-            <div class="col">
-              <a href="Multiponto.html" class="texto_cabecalho"> Multiponto </a>
-            </div>
-            <div class="col">
-              <a href="Digipress.html" class="texto_cabecalho" > Digipress </a>
-            </div>
-            <div class="col">
-              <a href="Contactos.html" class="texto_cabecalho" > Contactos </a>
-            </div>
-            <div class="col">
-              <a href="Serviços.html" class="texto_cabecalho" > Serviços </a>
-            </div>
-          </div>
+  <!-- CABEÇALHOS -->
+  <header>
+    <div class='topo' style="margin-top: 5px; margin-left: 5px; margin-right: 5px;">
+      <div class="row">
+        <div class="col-1" style="display:contents;">
+          <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="51" style="padding-right: 50px;" />
         </div>
-      </header>
-
-    <p class="meialinha"> </p>
-    <!-- COLOCAR DATA ATUAL -->
-    <h3 style="font-size:11px; color: #A4A4A4;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-
-        <script type="text/javascript">
-            var currentTime = new Date()
-            var horas = currentTime.getHours();
-            var minutos = currentTime.getMinutes();
-            var segundos = currentTime.getSeconds();
-            var dia = currentTime.getDate();
-            var mes = currentTime.getMonth();
-            var ano = currentTime.getFullYear();
-            var Dia = currentTime.getDay();
-            var Mes = currentTime.getUTCMonth();
-
-            if (minutos < 10)
-                minutos = "0" + minutos
-            if (segundos < 10)
-                segundos = "0" + segundos
-            if (dia < 10)
-                dia = "0" + dia
-            if (mes < 10)
-                mes = "0" + mes
-
-            arrayDia = new Array();
-            arrayDia[0] = "Domingo";
-            arrayDia[1] = "Segunda-Feira";
-            arrayDia[2] = "Terça-Feira";
-            arrayDia[3] = "Quarta-Feira";
-            arrayDia[4] = "Quinta-Feira";
-            arrayDia[5] = "Sexta-Feira";
-            arrayDia[6] = "Sábado";
-
-            var arrayMes = new Array();
-            arrayMes[0] = "Janeiro";
-            arrayMes[1] = "Fevereiro";
-            arrayMes[2] = "Março";
-            arrayMes[3] = "Abril";
-            arrayMes[4] = "Maio";
-            arrayMes[5] = "Junho";
-            arrayMes[6] = "Julho";
-            arrayMes[7] = "Agosto";
-            arrayMes[8] = "Setembro";
-            arrayMes[9] = "Outubro";
-            arrayMes[10] = "Novembro";
-            arrayMes[11] = "Dezembro";
-            document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
-        </script>
-    </h3>
-
-    <!-- INFORMAÇÃO SERVIÇOS MULTIPNTO -->
-    <div class="container-fluid" style="padding-top: 5px; padding-bottom: 10px;">
-        <div class="row">
-    <table align="center" style="margin-bottom: 75px; margin-top: 50px;">
-        <tr>
-            <td>
-                <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; IMPRESSÃO DIGITAL </p>
-            </td>
-            <td>
-                <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; ETIQUETAS </p>
-            </td>
-            <td>
-                <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; RÓTULOS </p>
-            </td>
-        </tr>
-
-
-    </table>
+        <div class="col-1" style="display: contents;">
+          <img src="wp-content/logo digipress New_pequeno.png" width="auto" height="50" />
         </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+        </div>
+        <div class="col">
+          <a href="index.html" class="icone_home" style="margin-top: -22px;"> 
+            <img src="wp-content/icone HOME Black.png" /> </a>
+        </div>
+        <div class="col">
+          <a href="Multiponto.html" class="texto_cabecalho"> Multiponto </a>
+        </div>
+        <div class="col">
+          <a href="Digipress.html" class="texto_cabecalho"> Digipress </a>
+        </div>
+        <div class="col">
+          <a href="Contactos.html" class="texto_cabecalho"> Contactos </a>
+        </div>
+        <div class="col">
+          <a href="Serviços.html" class="texto_cabecalho"> Serviços </a>
+        </div>
+      </div>
     </div>
+  </header>
 
-    <!-- CARROSSEL -->
-    <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
-        <div class="row">
-    <table align="center">
+  <p class="meialinha"> </p>
+
+  <!-- COLOCAR DATA ATUAL -->
+  <h3 style="font-size:11px; color: #A4A4A4;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <script type="text/javascript">
+      var currentTime = new Date()
+      var horas = currentTime.getHours();
+      var minutos = currentTime.getMinutes();
+      var segundos = currentTime.getSeconds();
+      var dia = currentTime.getDate();
+      var mes = currentTime.getMonth();
+      var ano = currentTime.getFullYear();
+      var Dia = currentTime.getDay();
+      var Mes = currentTime.getUTCMonth();
+
+      if (minutos < 10)
+        minutos = "0" + minutos
+      if (segundos < 10)
+        segundos = "0" + segundos
+      if (dia < 10)
+        dia = "0" + dia
+      if (mes < 10)
+        mes = "0" + mes
+
+      arrayDia = new Array();
+      arrayDia[0] = "Domingo";
+      arrayDia[1] = "Segunda-Feira";
+      arrayDia[2] = "Terça-Feira";
+      arrayDia[3] = "Quarta-Feira";
+      arrayDia[4] = "Quinta-Feira";
+      arrayDia[5] = "Sexta-Feira";
+      arrayDia[6] = "Sábado";
+
+      var arrayMes = new Array();
+      arrayMes[0] = "Janeiro";
+      arrayMes[1] = "Fevereiro";
+      arrayMes[2] = "Março";
+      arrayMes[3] = "Abril";
+      arrayMes[4] = "Maio";
+      arrayMes[5] = "Junho";
+      arrayMes[6] = "Julho";
+      arrayMes[7] = "Agosto";
+      arrayMes[8] = "Setembro";
+      arrayMes[9] = "Outubro";
+      arrayMes[10] = "Novembro";
+      arrayMes[11] = "Dezembro";
+      document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
+    </script>
+  </h3>
+
+  <!-- INFORMAÇÃO SERVIÇOS MULTIPNTO -->
+  <div class="container-fluid" style="padding-top: 5px; padding-bottom: 10px;">
+    <div class="row">
+      <table align="center" style="margin-bottom: 75px; margin-top: 50px;">
+        <tr>
+          <td>
+            <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; IMPRESSÃO DIGITAL 
+            </p>
+          </td>
+          <td>
+            <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; ETIQUETAS 
+            </p>
+          </td>
+          <td>
+            <p class="texto_Servicos_Multiponto"> &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; RÓTULOS 
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- CARROSSEL -->
+  <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
+    <div class="row">
+      <table align="center">
         <tr> <!-- Primeira linha da tabela -->
-            <td style="max-width: 2000px; padding-left: 50px;">
-
-                <div class="row">
-                    <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <div class="row">
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-01.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-02.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-03.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-05.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-13.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-06.png">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- SEGUNDO SLIDE -->
-                            <div class="carousel-item">
-                                <div class="row">
-
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-07.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-08.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-09.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-10.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-04.png">
-                                    </div>
-                                    <div class="col-md-2 mb-5">
-                                        <img class="img-fluid"
-                                            src="wp-content/ServicosDigipress/ImagensServicosDigipress-14.png">
-                                    </div>
-
-                                </div>
-                            </div>
-
-                        </div>
+          <td style="max-width: 2000px; padding-left: 50px;">
+            <div class="row">
+              <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-01.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-02.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-03.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-05.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-13.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-06.png">
+                      </div>
                     </div>
+                  </div>
+                  <!-- SEGUNDO SLIDE -->
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-07.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-08.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-09.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-10.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-04.png">
+                      </div>
+                      <div class="col-md-2 mb-5">
+                        <img class="img-fluid" src="wp-content/ServicosDigipress/ImagensServicosDigipress-14.png">
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-            </td>
+              </div>
+            </div>
+          </td>
         </tr>
-    </table>
-        </div>
+      </table>
     </div>
+  </div>
 
-    <!-- FILETE -->
-    <hr size="1" style="border:2px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 30px;">
+  <!-- FILETE -->
+  <hr size="1" style="border:2px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 30px;">
 
-
-    <!-- DESCRICAO MULTIPONTO & VIDEO -->
-    <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
-        <div class="row">
-    <table align="center" width="100%" border="0" style="margin-top: 50px;">
+  <!-- DESCRICAO MULTIPONTO & VIDEO -->
+  <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
+    <div class="row">
+      <table align="center" width="100%" border="0" style="margin-top: 50px;">
         <tr>
-            <td align="right" style="vertical-align: top; width: 7%; padding-top: 20px;">
-                <p> <img src="wp-content/Simbolo-digipress-Black.png" width="60px;" style="opacity: 20%;"> </p>
-            </td>
-            <td align="left" style="width: 16%; vertical-align: top;">
-                <br> <br>
-                <p
-                    style="font-size: 55px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing: 2px; line-height: 15px; font-weight: bold;opacity: 30%; color: #A4A4A4">
-                    &nbsp; DIGIPRESS </p>
-                <p
-                    style="font-size: 22px; font-family:'Arial Narrow', Arial, sans-serif; letter-spacing: 1px; opacity: 40%;">
-                    &nbsp; …as boas impressões ficam </p>
-            </td>
-            <td align="left" style="width: 40%; vertical-align: top; padding-left: 70px; padding-top: 5px;">
-                <br>
-                <p class="texto_Descricao_Pagina_Multiponto"> A <strong> Digipress </strong> encontra-se prestes a
-                    completar 20 anos de actividade, mantendo-se fiel à matriz que inspirou a sua criação – a impressão
-                    digital em grandes formatos – vai iniciar uma nova fase de actividade, alargando a sua área à
-                    produção de rótulos e etiquetas com elevado padrão de qualidade. <br>
-                <p class="meia_linha"> </p>
-                <p class="texto_Descricao_Pagina_Multiponto">
-                    Para o efeito, a Digipress adquiriu o equipamento de impressão e acabamento com a mais elevada e
-                    actual tencologia, de modo a proporcionar uma resposta adequada às mais diversas necessidades do
-                    mercado. <br>
-                <p class="meia_linha"> </p>
-                <p class="texto_Descricao_Pagina_Multiponto">
-                    Assim, podemos oferecer, além da impressão cromática com dados variáveis, a utilização de cores
-                    suplementares, estampado a quente, verniz, laminação, relevo e braille, complementada pelo mais
-                    sofisticado equipamento de corte e controle. <br>
-                <p class="meia_linha"> </p>
-                <p class="texto_Descricao_Pagina_Multiponto">
-                    Mercê da ligação institucional existente com a Multiponto, SA, que opera no sector OFFSET rotativa e
-                    folha convencional, a Digipress está em condições de corresponder ao mais amplo espectro de desafios
-                    que lhe possam ser colocados, beneficiando da larga experiência de todos os agentes envolvidos. </p>
-                    <p class="meia_linha"> </p>
-                <p class="texto_Descricao_Pagina_Multiponto">
-                    Desde há muito, os actos falam por nós! </p>
-            </td>
+          <td align="right" style="vertical-align: top; width: 7%; padding-top: 20px;">
+            <p> <img src="wp-content/Simbolo-digipress-Black.png" width="60px;" style="opacity: 20%;"> 
+            </p>
+          </td>
+          <td align="left" style="width: 16%; vertical-align: top;">
+            <br> <br>
+            <p style="font-size: 55px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; letter-spacing: 2px; line-height: 15px; font-weight: bold;opacity: 30%; color: #A4A4A4">
+              &nbsp; DIGIPRESS 
+            </p>
+            <p style="font-size: 22px; font-family:'Arial Narrow', Arial, sans-serif; letter-spacing: 1px; opacity: 40%;">
+              &nbsp; …as boas impressões ficam 
+            </p>
+          </td>
+          <td align="left" style="width: 40%; vertical-align: top; padding-left: 70px; padding-top: 5px;">
+            <br>
+            <p class="texto_Descricao_Pagina_Multiponto"> A <strong> Digipress </strong> encontra-se prestes a
+              completar 20 anos de actividade, mantendo-se fiel à matriz que inspirou a sua criação – a impressão
+              digital em grandes formatos – vai iniciar uma nova fase de actividade, alargando a sua área à
+              produção de rótulos e etiquetas com elevado padrão de qualidade. <br>
+            <p class="meia_linha"> </p>
+            <p class="texto_Descricao_Pagina_Multiponto">
+              Para o efeito, a Digipress adquiriu o equipamento de impressão e acabamento com a mais elevada e
+              actual tencologia, de modo a proporcionar uma resposta adequada às mais diversas necessidades do mercado. <br>
+            <p class="meia_linha"> </p>
+            <p class="texto_Descricao_Pagina_Multiponto">
+              Assim, podemos oferecer, além da impressão cromática com dados variáveis, a utilização de cores
+              suplementares, estampado a quente, verniz, laminação, relevo e braille, complementada pelo mais
+              sofisticado equipamento de corte e controle. <br>
+            <p class="meia_linha"> </p>
+            <p class="texto_Descricao_Pagina_Multiponto">
+              Mercê da ligação institucional existente com a Multiponto, SA, que opera no sector OFFSET rotativa e
+              folha convencional, a Digipress está em condições de corresponder ao mais amplo espectro de desafios
+              que lhe possam ser colocados, beneficiando da larga experiência de todos os agentes envolvidos. 
+            </p>
+            <p class="meia_linha"> </p>
+            <p class="texto_Descricao_Pagina_Multiponto"> Desde há muito, os actos falam por nós! </p>
+          </td>
 
-            <td style="width: 37%; vertical-align: top; padding-top: 5px; padding-left: 90px;">
-                <video style="padding-left: 60px; padding-top: 30px; max-width: 80%;" controls preload="auto"
-                    poster="wp-content/Videos/Imagens Capas Videos DIGI.png" data-setup='{"example_option":true}'>
-                    <source src="wp-content/Videos/Video Multiponto&Digipress_Low_Cortado.mp4" type='video/mp4'
-                        style="max-width: 80%;">
-                </video>
-            </td>
+          <td style="width: 37%; vertical-align: top; padding-top: 5px; padding-left: 90px;">
+            <video style="padding-left: 60px; padding-top: 30px; max-width: 80%;" controls preload="auto"
+              poster="wp-content/Videos/Imagens Capas Videos DIGI.png" data-setup='{"example_option":true}'>
+              <source src="wp-content/Videos/Video Multiponto&Digipress_Low_Cortado.mp4" type='video/mp4'
+                style="max-width: 80%;">
+            </video>
+          </td>
         </tr>
-    </table>
-        </div>
+      </table>
     </div>
+  </div>
 
-    <!-- INICIO DE FORMULARIO DE CONTACTO -->
-    <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 50px;">
+  <!-- INICIO DE FORMULARIO DE CONTACTO -->
+  <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 50px;">
 
-    <div
-        style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
-        contacte-nos </div>
-    <p
-        style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
-        Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.</p>
+  <div style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
+    contacte-nos 
+  </div>
+  <p style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
+    Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.
+  </p>
 
   <!-- FORMULARIO -->
   <!-- ###################### -->
@@ -301,10 +276,10 @@
       <div class="col-xs-3" style="width: 65%;">
         <div class="formulario_contacto_Elfsight">
           <script src="https://static.elfsight.com/platform/platform.js" async></script>
-          <div class="elfsight-app-ad1310a6-3076-47d1-a359-7e8d91400245" data-elfsight-app-lazy></div>
+          <div class="elfsight-app-ad1310a6-3076-47d1-a359-7e8d91400245" data-elfsight-app-lazy>
+          </div>
         </div>
       </div>
-
       <div class="col-xs-3" style="width: 35%; margin-right: 0px;">
         <div class="mapouter">
           <div class="gmap_canvas">
@@ -337,85 +312,82 @@
   </div>
   <!-- #################### -->
 
-    <!-- GOOGLE TRADUTOR -->
-    <div id="google_translate_element" style="margin-left: 150px; margin-top: 40px;"></div>
-    <script>
-        function googleTranslateElementInit() {
-            new google.translate.TranslateElement({
-                pageLanguage: 'en'
-            }, 'google_translate_element');
-        }
-    </script>
-    <script type="text/javascript"
-        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <!-- GOOGLE TRADUTOR -->
+  <div id="google_translate_element" style="margin-left: 150px; margin-top: 40px;"></div>
+  <script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en'
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript"
+    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
 
-    <!-- RODAPE -->
-    <footer>
-
-
-        <div class="container-fluid" style="background-color: #CFCABE; margin-top: 30px;">
-          <div class="row justify-content-md-center">
-            <div class="col col-lg-2">
-              <p > <a href="Multiponto.html" target="_blank"> <img src="wp-content/logo multiponto_pequeno.png"
-                style="margin-top: 60px; " width="272" height="50" /> </a> </p>
-            </div>
-            <div class="col col-lg-2">
-              <p>  <a href="Digipress.html" target="_blank"> <img src="wp-content/logo digipress New_pequeno.png"
-                style="margin-top: 60px;" width="175" height="50"> </a>  </p>
-            </div>
-            <div class="col col-lg-3">
-              <p class=" texto_rodape" style=" margin-top: 40px ;">
-                <strong> Contactos </strong> <br>
-                Instalações Industriais: <br>
-                Rua da Fábrica, 260 <br>
-                4585-013 Baltar Paredes <br>
-                Telef: +351 225 193 400 (chamada para a rede fixa nacional)
+  <!-- RODAPE -->
+  <footer>
+    <div class="container-fluid" style="background-color: #CFCABE; margin-top: 30px;">
+      <div class="row justify-content-md-center">
+        <div class="col col-lg-2">
+          <p> <a href="Multiponto.html" target="_blank"> <img src="wp-content/logo multiponto_pequeno.png"
+                style="margin-top: 60px; " width="272" height="50" /> </a> 
               </p>
-            </div>
-          
-            <div class="col col-lg-1">
-              <p class="texto_rodape" style="margin-top: 40px;">
-                <strong> Sobre </strong> <br>
-                <a href="Multiponto.html" target="_blank" style="text-decoration: none; color: #636363;"> MULTIPONTO
-                </a>
-                <br>
-                <a href="Digipress.html" target="_blank" style="text-decoration: none; color: #636363;"> DIGIPRESS </a>
-              </p>
-            </div>
-            <div class="col col-lg-1">
-              <p class="texto_rodape" style="margin-top: 40px;">
-                <strong> Privacy </strong> <br>
-                Privacy Policy <br>
-                Terms and Conditions <br>
-              </p>
-            </div>
-            <div class="col col-lg-1">
-              <p class="texto_rodape" style="margin-top: 40px;">
-                <strong> Social </strong> <br>
-              <p> <a href="https://www.facebook.com/?locale=pt_PT" target="_blank"> <img
-                    src="wp-content/iconeFacebook.png" width="20%"> </a> &nbsp; &nbsp;
-                <a href="https://www.instagram.com" target="_blank"> <img src="wp-content/iconeInstagram.png"
-                    width="15%"> </a> &nbsp; &nbsp;
-                <a href="https://x.com/?lang=pt\u0026mx=2" target="_blank"> <img src="wp-content/iconeX.png"
-                    width="15%">
-                </a>
-              </p>
-              </p>
-            </div>
-          </div>
         </div>
-    
-      </footer>
+        <div class="col col-lg-2">
+          <p> <a href="Digipress.html" target="_blank"> <img src="wp-content/logo digipress New_pequeno.png"
+                style="margin-top: 60px;" width="175" height="50"> </a> 
+              </p>
+        </div>
+        <div class="col col-lg-3">
+          <p class=" texto_rodape" style=" margin-top: 40px ;">
+            <strong> Contactos </strong> <br>
+            Instalações Industriais: <br>
+            Rua da Fábrica, 260 <br>
+            4585-013 Baltar Paredes <br>
+            Telef: +351 225 193 400 (chamada para a rede fixa nacional)
+          </p>
+        </div>
+        <div class="col col-lg-1">
+          <p class="texto_rodape" style="margin-top: 40px;">
+            <strong> Sobre </strong> <br>
+            <a href="Multiponto.html" target="_blank" style="text-decoration: none; color: #636363;"> MULTIPONTO
+            </a>
+            <br>
+            <a href="Digipress.html" target="_blank" style="text-decoration: none; color: #636363;"> DIGIPRESS </a>
+          </p>
+        </div>
+        <div class="col col-lg-1">
+          <p class="texto_rodape" style="margin-top: 40px;">
+            <strong> Privacy </strong> <br>
+            Privacy Policy <br>
+            Terms and Conditions <br>
+          </p>
+        </div>
+        <div class="col col-lg-1">
+          <p class="texto_rodape" style="margin-top: 40px;">
+            <strong> Social </strong> <br>
+          <p> <a href="https://www.facebook.com/?locale=pt_PT" target="_blank"> <img src="wp-content/iconeFacebook.png"
+                width="20%"> </a> &nbsp; &nbsp;
+            <a href="https://www.instagram.com" target="_blank"> <img src="wp-content/iconeInstagram.png" width="15%">
+            </a> &nbsp; &nbsp;
+            <a href="https://x.com/?lang=pt\u0026mx=2" target="_blank"> <img src="wp-content/iconeX.png" width="15%">
+            </a>
+          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
-    <!-- JAVASCRIPT -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-    <script type="text/javascript"
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"> </script>
+  
+  <!-- JAVASCRIPT -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"> </script>
 
 </body>
-
 </html>

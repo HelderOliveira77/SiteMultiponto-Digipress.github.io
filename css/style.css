@@ -1,121 +1,112 @@
-    .topo {
-      padding: 15px 15px 10px 35px;
-      /* display: flex;
+.topo {
+  padding: 15px 15px 10px 35px;
+  /* display: flex;
       justify-content: left; */
-      /* text-align: center;
+  /* text-align: center;
         /*background-color: green;
         /* background-image: url("images/sunset.png"); */
-      /* background-image: linear-gradient(to right, white, black); */
-      /* background-color: #CFCABE; */
-      background-color: #cfcabe57;
-      
-    }
+  /* background-image: linear-gradient(to right, white, black); */
+  /* background-color: #CFCABE; */
+  background-color: #cfcabe57;
+}
 
-    .meia_linha {
-      line-height: 1px;
-    }
+.meia_linha {
+  line-height: 1px;
+}
 
+.texto_cabecalho {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  /* left: 1300px; */
+  top: 10px;
+  justify-content: right;
+  font-size: 22px;
+  /* font-weight: bold; */
+  color: black;
+  /* color: white; */
+  text-decoration: underline;
+  text-align: center;
+  /*background-color: green; */
+}
 
-    .texto_cabecalho {
-      font-family:Verdana, Geneva, Tahoma, sans-serif;
-      position: relative;
-      /* left: 1300px; */
-      top: 10px;
-      justify-content: right;
-      font-size: 22px;
-      /* font-weight: bold; */
-      color:black;
-      /* color: white; */
-      text-decoration:underline;
-      text-align: center;
-      /*background-color: green; */
-    }
+.texto_Mais_Info {
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  font-size: 30px;
+  color: #454242;
+  text-decoration: none;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
 
-    .texto_Mais_Info {
-      font-family: 'Arial Narrow', Arial, sans-serif;
-      justify-content: center;
-      font-size: 30px;
-      color:#454242;
-      text-decoration: none;
-      text-align: left;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
+.texto_Mais_Info_v2 {
+  font-family: 'Trebuchet MS', sans-serif;
+  justify-content: left;
+  font-size: 15.5px;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  /* text-transform: uppercase; */
+  letter-spacing: 0px;
+}
 
-    .texto_Mais_Info_v2 {
-      font-family:'Trebuchet MS', sans-serif;
-      justify-content: left;
-      font-size: 15.5px;
-      color: black;
-      text-decoration: none;
-      text-align: center;
-      /* text-transform: uppercase; */
-      letter-spacing: 0px;
-    }
+.botao_Mais_Info {
+  color: #867d7d;
+}
 
-    .botao_Mais_Info {
-      color:#867d7d;
+.icone_home {
+  position: absolute;
+  /* left: 1870px; */
+  top: 30px;
+}
 
-    }
+.texto_Titulos_Rotulos {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 45px;
+  color: black;
+  vertical-align: bottom;
+  margin-top: 50px;
+}
 
-    .icone_home {
-      position: absolute;
-      /* left: 1870px; */
-      top: 30px;
-    }
+.texto_Titulos_Rotulos_v2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 30px;
+  color: #867d7d;
+}
 
-    .texto_Titulos_Rotulos {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      text-transform: uppercase;
-      font-size: 45px;
-      text-align: center;
-      letter-spacing: 2px;
-      line-height: 45px;
-      color: black;
-      vertical-align: bottom;
-      margin-top: 50px;
-    }
-
-    .texto_Titulos_Rotulos_v2 {
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      text-transform: uppercase;
-      font-size: 22px;
-      text-align: center;
-      letter-spacing: 1px;
-      line-height: 30px;
-      color: #867d7d;
-    }
-
-
-
-    .deslizante {
-      font-size: 22px;
-      size: 20px;
-      font-weight: normal;
-      line-height: 1.2;
-      text-align: center;
-      color: rgb(255, 255, 255);
-      text-transform: uppercase;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      opacity: 1;
-      font-kerning: normal;
-      letter-spacing: 1px;
-      position: relative;
-      bottom: -0.4em;
-      margin-left: 500px;
-      margin-right: 500px;
-    }
-
-
-
-
+.deslizante {
+  font-size: 22px;
+  size: 20px;
+  font-weight: normal;
+  line-height: 1.2;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  opacity: 1;
+  font-kerning: normal;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: -0.4em;
+  margin-left: 500px;
+  margin-right: 500px;
+}
 
 #read_button {
   border: none;
   padding: 10px;
   border-radius: 2px;
   margin-top: 15px;
-  background-color:transparent;
+  background-color: transparent;
   color: #867d7d;
   font-weight: bold;
   /* cursor: pointer;
@@ -124,7 +115,7 @@
 
 #read_button:hover {
   background-color: transparent;
-  color:transparent;
+  color: transparent;
   /* transition: all 0.2s ease-in-out; */
 }
 
@@ -133,19 +124,19 @@
 }
 
 .card.active .content::before {
-  visibility:hidden;
+  visibility: hidden;
 }
 
 .texto_Descrição_Empresas {
   /* font-family:Cochin, Georgia, Times, 'Times New Roman', serif; */
   font-family: 'Arial Narrow', Arial, sans-serif;
   /* justify-content: center;
-  display: flex; */
+      display: flex; */
   font-size: 22.5px;
-  color:#454242;
+  color: #454242;
   text-decoration: none;
   text-align: justify;
-  text-transform:none;
+  text-transform: none;
   letter-spacing: 0.5px;
   /* margin-left: 840px;
   margin-right: 840px; */
@@ -188,13 +179,12 @@
 }
 
 .slider_home img {
-  margin: auto; 
+  margin: auto;
   /* margin-left: 0px;
   margin-right: 500px; */
   height: 120%;
   width: 100%;
   vertical-align: top;
-  
 }
 
 .slider_home input {
@@ -204,7 +194,7 @@
 .slider_home label {
   background-color: white;
   bottom: 10px;
-  cursor:pointer;
+  cursor: pointer;
   display: block;
   height: 10px;
   position: absolute;
@@ -227,27 +217,27 @@
 .slider_home li:nth-child(4) label {
   left: 100px;
 }
+
 .slider_home li:nth-child(5) label {
   left: 130px;
 }
-
 
 .slider_home img {
   opacity: 0;
   visibility: hidden;
 }
 
-.slider_home li input:checked ~ img {
+.slider_home li input:checked~img {
   opacity: 1;
   visibility: visible;
   z-index: 10;
 }
 
 .footer_modelo {
-width: 100%;
-margin-top: 50px;
-/* align-content: top; */
-/* background-color: #CFCABE; */
+  width: 100%;
+  margin-top: 50px;
+  /* align-content: top; */
+  /* background-color: #CFCABE; */
 }
 
 .texto_rodape {
@@ -258,7 +248,6 @@ margin-top: 50px;
   line-height: 21px;
   color: #636363;
 }
-
 
 table#rodape {
   /* border: 1px solid black; */
@@ -274,74 +263,73 @@ table#rodape {
 
 /* NOVO FORMULARIO Elfsight */
 /* ################################## */
-.formulario_contacto_Elfsight{
+.formulario_contacto_Elfsight {
   width: 1400px;
   /* padding: 0px; */
   /* border:0px solid #ccc; */
-  margin-left: 145px; 
+  margin-left: 145px;
 }
 /* ################################# */
 
-
 /* FORMULARIO */
-.formulario_contacto{
+.formulario_contacto {
   /* width: 400px; */
   padding: 0px;
-  border:0px solid #ccc;
+  border: 0px solid #ccc;
   margin-left: 145px;
 }
-.formulario_contacto p{
+
+.formulario_contacto p {
   width: 100%;
 }
-.field_contacto{
+
+.field_contacto {
   width: 1000px;
-  margin: 20px ;
+  margin: 20px;
 }
 
-.field_contacto label, 
-.field_contacto span{
-    padding-left: 0px;
-    font-family:Tahoma, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    letter-spacing: 0.3px;
-    display: block;
-    width: 500px; 
-    margin-bottom: 8px; 
+.field_contacto label,
+.field_contacto span {
+  padding-left: 0px;
+  font-family: Tahoma, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  display: block;
+  width: 500px;
+  margin-bottom: 8px;
 }
 
-.radiobox label{ 
+.radiobox label {
   width: auto;
   display: inline-block;
 }
+
 /* AREA DO EMAIL E NOME */
 input[type=text],
-input[type=email]
-{
-    width: 1400px;
-    padding-left: 5px;
-    height: 40px;
-    line-height: 30px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    outline: none;
+input[type=email] {
+  width: 1400px;
+  padding-left: 5px;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
 }
+
 /* AREA DA MENSAGEM */
-textarea{
-    width: 1400px;
-    padding-left: 5px;
-    height: 90px;
-    line-height: 30px;
-    border-radius: 10px;
-    border: 1px solid #ccc;
-    outline: none;
+textarea {
+  width: 1400px;
+  padding-left: 5px;
+  height: 90px;
+  line-height: 30px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-
-
-
-input#nao{
-    margin-left: 30px;
+input#nao {
+  margin-left: 30px;
 }
 
 #input_botao_contacto {
@@ -349,51 +337,44 @@ input#nao{
   font-family: Tahoma sans-serif;
   font-size: 14px;
   letter-spacing: 0.3px;
-  background-color:#636363;
+  background-color: #636363;
   color: white;
   width: 100px;
   height: 35px;
   border-radius: 7px;
 }
 
-
 .texto_Servicos_Multiponto {
-  font-family:'Arial Narrow', Arial, sans-serif;
+  font-family: 'Arial Narrow', Arial, sans-serif;
   text-transform: uppercase;
   font-size: 26px;
   text-align: center;
   letter-spacing: 1.25px;
   line-height: 2px;
-  color:#636363;
-  
+  color: #636363;
 }
 
 /* .google_translate_element {
   display: none;
 } */
 
-
-
 .texto_Descricao_Pagina_Multiponto {
   font-family: 'Arial Narrow', Arial, sans-serif;
   justify-content: center;
   font-size: 21px;
-  color:#454242;
+  color: #454242;
   text-decoration: none;
   text-align: justify;
-  text-transform:none;
+  text-transform: none;
   letter-spacing: 0.5px;
   line-height: 1.6;
-
 }
 
-
-
 .texto_Contactos {
-  font-family:'AvenirLight';
+  font-family: 'AvenirLight';
   justify-content: left;
   font-size: 25px;
-  color:#454242;
+  color: #454242;
   text-decoration: none;
   text-align: left;
   /* text-transform: uppercase; */
@@ -401,97 +382,98 @@ input#nao{
   margin-left: 180px;
   font-weight: lighter;
 }
-/* .texto_Contactos_Descricao {
-  font-family:'InterRegular';
-  justify-content: left;
-  font-size: 30px;
-  color:#454242;
-  text-decoration: none;
-  text-align: left;
-  text-transform: uppercase;
-  letter-spacing: 0px;
-} */
 
-
-
-.botao_orçamento{
-  background-color:#ccc;
+.botao_orçamento {
+  background-color: #ccc;
   color: white;
   align-content: center;
   align-items: center;
   border-radius: 10px;
   height: 40px;
   width: 120px;
-          }
-
+}
 
 /*--------------------------------------------- */
 /*----------------- FONTES -------------------- */
 /*--------------------------------------------- */
-
 @font-face {
   font-family: 'FuturaLight';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/futura light bt.ttf");
 }
+
 @font-face {
   font-family: 'FuturaBook';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura Book font.ttf");
 }
+
 @font-face {
   font-family: 'FuturaMedium';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/futura medium bt.ttf");
 }
+
 @font-face {
   font-family: 'FuturaHeavy';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura Heavy font.ttf");
 }
+
 @font-face {
   font-family: 'FuturaLightCondensada';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Futura-CondensedLight.otf");
 }
+
 /* AVENIR */
 @font-face {
   font-family: 'AvenirLight';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProLight.otf");
 }
+
 @font-face {
   font-family: 'AvenirRegular';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProRoman.otf");
 }
+
 @font-face {
   font-family: 'AvenirBook';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProBook.otf");
 }
+
 @font-face {
   font-family: 'AvenirMedium';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProMedium.otf");
 }
+
 @font-face {
   font-family: 'AvenirHeavy';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/AvenirLTProHeavy.otf");
 }
+
 /* ARCHIVO NARROW */
 @font-face {
   font-family: 'ArchivoNarrow';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/ArchivoNarrow/ArchivoNarrow-Regular.otf");
 }
+
 @font-face {
   font-family: 'ArchivoNarrowBold';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/ArchivoNarrow/ArchivoNarrow-Bold.otf");
 }
+
 /* INTER */
 @font-face {
   font-family: 'InterRegular';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-Regular.woff2");
 }
+
 @font-face {
   font-family: 'InterSemiBold';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-SemiBold.woff2");
 }
+
 @font-face {
   font-family: 'InterBold';
   src: url("/Users/Mac7/Documents/GitHub/SiteMultiponto-Digipress.github.io/wp-content/Fontes/Inter/Inter-Bold.woff2");
 }
+
 /* FREE SANS */
 @font-face {
   font-family: 'FreeSans';
@@ -510,8 +492,6 @@ max-width: 100px;
 background-color: aqua;
 }  */
 
-
-
 /* .carousel-caption {
   color: black;
 }
@@ -526,24 +506,20 @@ background-color: aqua;
 */
 
 .carousel slide_meu {
-  animation: moveToRight 3s linear; 
+  animation: moveToRight 3s linear;
   transition: 10ms;
   transform: translateX(300px);
   background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
-
-
-  .blink {
-    animation: blinker 4s linear infinite;
-    color: black;
-    font-family: sans-serif;
+.blink {
+  animation: blinker 4s linear infinite;
+  color: black;
+  font-family: sans-serif;
 }
+
 @keyframes blinker {
-    40% {
-        opacity: 30%;
-    }
+  40% {
+    opacity: 30%;
   }
-
-
-
+}
