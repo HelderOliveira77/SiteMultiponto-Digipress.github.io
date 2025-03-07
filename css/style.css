@@ -1,5 +1,5 @@
 .topo {
-  padding: 15px 15px 10px 35px;
+  /* padding: 5px 5px 5px 5px; */
   /* display: flex;
       justify-content: left; */
   /* text-align: center;
@@ -7,7 +7,10 @@
         /* background-image: url("images/sunset.png"); */
   /* background-image: linear-gradient(to right, white, black); */
   /* background-color: #CFCABE; */
-  background-color: #cfcabe57;
+  /* background-color:black; */
+  /* background-color: #cfcabe57; */
+  /* height: 40px; */
+  
 }
 
 .meia_linha {
@@ -349,7 +352,7 @@ input#nao {
   text-transform: uppercase;
   font-size: 26px;
   text-align: center;
-  letter-spacing: 1.25px;
+  letter-spacing: 1.5px;
   line-height: 2px;
   color: #636363;
 }
@@ -523,3 +526,7 @@ background-color: aqua;
     opacity: 30%;
   }
 }
+
+
+
+
