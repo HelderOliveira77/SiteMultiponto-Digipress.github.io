@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 
 
@@ -96,139 +96,150 @@
     </div> -->
 
 
-  <!-- COLOCAR DATA ATUAL -->
-  <h3 style="font-size:11px; color: #A4A4A4; padding-top: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <script type="text/javascript">
-      var currentTime = new Date()
-      var horas = currentTime.getHours();
-      var minutos = currentTime.getMinutes();
-      var segundos = currentTime.getSeconds();
-      var dia = currentTime.getDate();
-      var mes = currentTime.getMonth();
-      var ano = currentTime.getFullYear();
-      var Dia = currentTime.getDay();
-      var Mes = currentTime.getUTCMonth();
-      if (minutos < 10)
-        minutos = "0" + minutos
-      if (segundos < 10)
-        segundos = "0" + segundos
-      if (dia < 10)
-        dia = "0" + dia
-      if (mes < 10)
-        mes = "0" + mes
-      arrayDia = new Array();
-      arrayDia[0] = "Domingo";
-      arrayDia[1] = "Segunda-Feira";
-      arrayDia[2] = "Terça-Feira";
-      arrayDia[3] = "Quarta-Feira";
-      arrayDia[4] = "Quinta-Feira";
-      arrayDia[5] = "Sexta-Feira";
-      arrayDia[6] = "Sábado";
+    <!-- COLOCAR DATA ATUAL -->
+    <h3 style="font-size:11px; color: #A4A4A4; padding-top: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <script type="text/javascript">
+        var currentTime = new Date()
+        var horas = currentTime.getHours();
+        var minutos = currentTime.getMinutes();
+        var segundos = currentTime.getSeconds();
+        var dia = currentTime.getDate();
+        var mes = currentTime.getMonth();
+        var ano = currentTime.getFullYear();
+        var Dia = currentTime.getDay();
+        var Mes = currentTime.getUTCMonth();
+        if (minutos < 10)
+          minutos = "0" + minutos
+        if (segundos < 10)
+          segundos = "0" + segundos
+        if (dia < 10)
+          dia = "0" + dia
+        if (mes < 10)
+          mes = "0" + mes
+        arrayDia = new Array();
+        arrayDia[0] = "Domingo";
+        arrayDia[1] = "Segunda-Feira";
+        arrayDia[2] = "Terça-Feira";
+        arrayDia[3] = "Quarta-Feira";
+        arrayDia[4] = "Quinta-Feira";
+        arrayDia[5] = "Sexta-Feira";
+        arrayDia[6] = "Sábado";
 
-      var arrayMes = new Array();
-      arrayMes[0] = "Janeiro";
-      arrayMes[1] = "Fevereiro";
-      arrayMes[2] = "Março";
-      arrayMes[3] = "Abril";
-      arrayMes[4] = "Maio";
-      arrayMes[5] = "Junho";
-      arrayMes[6] = "Julho";
-      arrayMes[7] = "Agosto";
-      arrayMes[8] = "Setembro";
-      arrayMes[9] = "Outubro";
-      arrayMes[10] = "Novembro";
-      arrayMes[11] = "Dezembro";
-      document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
-    </script>
-  </h3>
+        var arrayMes = new Array();
+        arrayMes[0] = "Janeiro";
+        arrayMes[1] = "Fevereiro";
+        arrayMes[2] = "Março";
+        arrayMes[3] = "Abril";
+        arrayMes[4] = "Maio";
+        arrayMes[5] = "Junho";
+        arrayMes[6] = "Julho";
+        arrayMes[7] = "Agosto";
+        arrayMes[8] = "Setembro";
+        arrayMes[9] = "Outubro";
+        arrayMes[10] = "Novembro";
+        arrayMes[11] = "Dezembro";
+        document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
+      </script>
+    </h3>
 
 
-<!-- MODO MOBILE -->
-<div class="container-fluid d-sm-block d-md-none">
-  <div class="row" style="justify-content: center;">
-    <div class="logo_Centrado_Multi">
-      <img src="wp-content/logo multiponto&digipress_pequeno.png" width="auto" height="30"
-        style="align-items: center; align-content: center;" />
+    <!-- MODO MOBILE -->
+    <div class="container-fluid d-sm-block d-md-none">
+      <div class="row" style="justify-content: center;">
+        <div class="logo_Centrado_Multi">
+          <img src="wp-content/logo multiponto&digipress_pequeno.png" width="auto" height="30"
+            style="align-items: center; align-content: center;" />
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-	<nav class="navbar navbar-light bd-light d-block d-sm-block d-md-none">
-    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-fixo" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-light bd-light d-block d-sm-block d-md-none">
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-fixo" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button> -->
-  <div class="collapse navbar-collapse align-center" id="menu-fixo">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link text-uppercase scroll" href="Multiponto.html" style="font-size: 22px; color: white; text-decoration: none; " > Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase scroll" href="Multiponto.html" style="font-size: 22px; color: white; text-decoration: none; " > Multiponto </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link scroll text-uppercase" href="Digipress.html" style="font-size: 22px; color: white; text-decoration: none; " > Digipress </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link scroll text-uppercase " href="Contactos.html" style="font-size: 22px; color: white; text-decoration: none; " > Contactos </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link scroll text-uppercase" href="Serviços.html" style="font-size: 22px; color: white; text-decoration: none; " > Serviços </a>
-      </li>			
-    </ul>
-  </div>		
-  </nav>
-  <!-- FIM MODO MOBILE -->
+      <div class="collapse navbar-collapse align-center" id="menu-fixo">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase scroll" href="Multiponto.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase scroll" href="Multiponto.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Multiponto </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link scroll text-uppercase" href="Digipress.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Digipress </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link scroll text-uppercase " href="Contactos.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Contactos </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link scroll text-uppercase" href="Serviços.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Serviços </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- FIM MODO MOBILE -->
 
- <div class=" banner row">
-  <div class="d-none d-sm-none d-md-block col-md-12" style="padding-top:10px;padding-bottom:0px;">
-    <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 30px;"> 
-      <img src="wp-content/logo multiponto&digipress_pequeno.png" width="auto" height="60" style="padding-right: 50px;" />  
-    </h1>
-    <!-- <h1 class="animated lightSpeedIn text-center"> 
+    <div class=" banner row">
+      <div class="d-none d-sm-none d-md-block col-md-12" style="padding-top:10px;padding-bottom:0px;">
+        <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 30px;">
+          <img src="wp-content/logo multiponto&digipress_pequeno.png" width="auto" height="60"
+            style="padding-right: 50px;" />
+        </h1>
+        <!-- <h1 class="animated lightSpeedIn text-center"> 
       <img src="wp-content/logo digipress New_pequeno.png" width="auto" height="60" />  
     </h1> -->
-    <!-- <h4 class="animated fadeIn text-center">Desenvolvedora Web</h4> -->
-  </div>
-</div>	
+        <!-- <h4 class="animated fadeIn text-center">Desenvolvedora Web</h4> -->
+      </div>
+    </div>
 
- <div class='topo' style="margin-top: 20px; margin-left: 5px; margin-right: 5px;">
-  <ul class="nav justify-content-center">
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" aria-current="page" href="index.html"  > 
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-          Início</button> </a>
-    </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" aria-current="page" href="Multiponto.html" >
-      <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-         Multiponto </button> </a>
-    </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Digipress.html" >
-      <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-        Digipress </button> </a>
-   </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Contactos.html" >
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-          Contactos </button> </a>
-     </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Serviços.html" >
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-          Serviços </button> </a>
-     </li>
-  </ul>
- </div> 
- <hr size="1" style="border:0.5px solid #A4A4A4; margin-right:170px;margin-left:170px; margin-top: 0px;">
-</header>
+    <div class='topo' style="margin-top: 20px; margin-left: 5px; margin-right: 5px;">
+      <ul class="nav justify-content-center">
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" aria-current="page" href="index.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
+              Início</button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" aria-current="page" href="Multiponto.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
+              Multiponto </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Digipress.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Digipress </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Contactos.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Contactos </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Serviços.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Serviços </button> </a>
+        </li>
+      </ul>
+    </div>
+    <hr size="1" style="border:0.5px solid #A4A4A4; margin-right:170px;margin-left:170px; margin-top: 0px;">
+  </header>
 
   <p class="meialinha"> </p>
 
 
 
   <!-- PRIMEIRA INFORMAÇÂO MAIOR -->
-<!-- MOBILE -->
+  <!-- MOBILE -->
   <div class="container-fluid d-sm-block d-md-none" style="padding-top: 10px; padding-bottom: 30px;">
     <ul style="list-style: none; text-align: center; position:relative; left:-20px;">
       <li>
@@ -308,132 +319,137 @@
 
 
   <!-- INFORMAÇÂO QUADRO +INFO -->
-    <!-- PARA O MOBILE -->
-    <div class="container-fluid d-sm-block d-md-none" style="background-color:#cfcabe57">
-<ul style="list-style: none; text-align: center; position:relative; left:-20px; padding-top: 20px; ">
-<li>
-  <p>
-    <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Pré-Impressão</a>
-  </p>
-  <p class="d-inline-flex gap-1">
-    <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
-      aria-expanded="false" aria-controls="multiCollapseExample1"> +INFO</a>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample1">
-        <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-          Acompanhamento de todo o processo antes da impressão de um produto gráfico, disponibilizando meios
-          técnicos de tratamento de ficheiros e de imagens, imposição e provas de cor certificadas.
+  <!-- PARA O MOBILE -->
+  <div class="container-fluid d-sm-block d-md-none" style="background-color:#cfcabe57">
+    <ul style="list-style: none; text-align: center; position:relative; left:-20px; padding-top: 20px; ">
+      <li>
+        <p>
+          <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;">
+            Pré-Impressão</a>
+        </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample1"> +INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample1">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Acompanhamento de todo o processo antes da impressão de um produto gráfico, disponibilizando meios
+                técnicos de tratamento de ficheiros e de imagens, imposição e provas de cor certificadas.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>       
-</li>
-<li>
-  <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Impressão digital Vários
-    Formatos</a> </p>
-<p class="d-inline-flex gap-1">
-  <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
-    aria-expanded="false" aria-controls="multiCollapseExample2">+INFO</a>
-</p>
-<div class="row">
-  <div class="col">
-    <div class="collapse multi-collapse" id="multiCollapseExample2">
-      <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-        Pequenos formatos, ideais para personalizações e impressão de pequenas quantidades. Impressão papel
-        IOR,
-        couchés, fine papers e acetatos, com gramagem máxima até 300 grs. <br> <br>
-        Grandes formatos, vários materiais e acabamentos desde a lona, a tela artística, o papel simples ou
-        fotográfico, autocolante, vinil,
-        laminação brilhante ou matte, contra colagens em PVC, micro onda, K-Mount e corte de Plotter.
-      </div>
-    </div>
-  </div>
-</div>
-</li>
-<li>
-  <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Rotativa</a> </p>
-  <p class="d-inline-flex gap-1">
-    <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
-      aria-expanded="false" aria-controls="multiCollapseExample3">+INFO</a>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample3">
-        <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-          Duas máquinas rotativas com impressão a 4 cores frente e verso usando papel em bobine,
-          sendo direccionadas para médias e grandes tiragens possibilitando a impressão de brochuras,
-          folhetos,
-          revistas, livros, entre outros.
+      </li>
+      <li>
+        <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info"
+            style="font-size: 24px; letter-spacing: 0px;"> Impressão digital Vários
+            Formatos</a> </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample2">+INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample2">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Pequenos formatos, ideais para personalizações e impressão de pequenas quantidades. Impressão papel
+                IOR,
+                couchés, fine papers e acetatos, com gramagem máxima até 300 grs. <br> <br>
+                Grandes formatos, vários materiais e acabamentos desde a lona, a tela artística, o papel simples ou
+                fotográfico, autocolante, vinil,
+                laminação brilhante ou matte, contra colagens em PVC, micro onda, K-Mount e corte de Plotter.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</li>
-<li>
-  <p>
-    <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Impressão Offset</a>
-  </p>
-  <p class="d-inline-flex gap-1">
-    <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
-      aria-expanded="false" aria-controls="multiCollapseExample4">+INFO</a>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample4">
-        <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-          Impressão offset a 1, 2, 4 e 6 cores com verniz em simultâneo.
-          Acabamentos como corte e vinco, relevo, estampagem, plastificação a quente, dobra e agrafar.
+      </li>
+      <li>
+        <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info"
+            style="font-size: 24px; letter-spacing: 0px;"> Rotativa</a> </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample3" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample3">+INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample3">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Duas máquinas rotativas com impressão a 4 cores frente e verso usando papel em bobine,
+                sendo direccionadas para médias e grandes tiragens possibilitando a impressão de brochuras,
+                folhetos,
+                revistas, livros, entre outros.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</li>
-<li>
-  <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Rótulos e etiquetas</a> </p>
-  <p class="d-inline-flex gap-1">
-    <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button"
-      &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;aria-expanded="false"
-      aria-controls="multiCollapseExample5">+INFO</a>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample5">
-        <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-          Alargamos a área de actuação com a produção de rótulos e etiqueta.
-          Vários acabamento, nomeadamente, utilização de cores suplementares, verniz, laminação, estampado a
-          quente, relevo/braille.
+      </li>
+      <li>
+        <p>
+          <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;">
+            Impressão Offset</a>
+        </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample4" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample4">+INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample4">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Impressão offset a 1, 2, 4 e 6 cores com verniz em simultâneo.
+                Acabamentos como corte e vinco, relevo, estampagem, plastificação a quente, dobra e agrafar.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</li>
-<li>
-  <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info" style="font-size: 24px; letter-spacing: 0px;"> Acabamentos</a> </p>
-  <p class="d-inline-flex gap-1">
-    <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
-      aria-expanded="false" aria-controls="multiCollapseExample6">+INFO</a>
-  </p>
-  <div class="row">
-    <div class="col">
-      <div class="collapse multi-collapse" id="multiCollapseExample6">
-        <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
-          Várias máquinas de acabamento permitindo varias opções nesta área.
-          Tais como plastificação, envernizamento Ultra Violeta, dobra (cruzada, paralela, em harmónio ou
-          combinada), agrafar, serrotar e colar, coser a fio,
-          meter à capa, embalagem em mangas plástica, com colocação de folha de rosto e encartes, corte e
-          vinco, colagem de caixas e estalagens e relevos.
+      </li>
+      <li>
+        <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info"
+            style="font-size: 24px; letter-spacing: 0px;"> Rótulos e etiquetas</a> </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample5" role="button" &nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;aria-expanded="false" aria-controls="multiCollapseExample5">+INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample5">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Alargamos a área de actuação com a produção de rótulos e etiqueta.
+                Vários acabamento, nomeadamente, utilização de cores suplementares, verniz, laminação, estampado a
+                quente, relevo/braille.
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+      </li>
+      <li>
+        <p> <a href="Serviços.html" target="_blank" class="texto_Mais_Info"
+            style="font-size: 24px; letter-spacing: 0px;"> Acabamentos</a> </p>
+        <p class="d-inline-flex gap-1">
+          <a class="botao_Mais_Info" data-bs-toggle="collapse" href="#multiCollapseExample6" role="button"
+            aria-expanded="false" aria-controls="multiCollapseExample6">+INFO</a>
+        </p>
+        <div class="row">
+          <div class="col">
+            <div class="collapse multi-collapse" id="multiCollapseExample6">
+              <div class="texto_Mais_Info_v2" style="margin-bottom: 30px;">
+                Várias máquinas de acabamento permitindo varias opções nesta área.
+                Tais como plastificação, envernizamento Ultra Violeta, dobra (cruzada, paralela, em harmónio ou
+                combinada), agrafar, serrotar e colar, coser a fio,
+                meter à capa, embalagem em mangas plástica, com colocação de folha de rosto e encartes, corte e
+                vinco, colagem de caixas e estalagens e relevos.
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
   </div>
-</li>
-</ul>    
-    </div>
   <!-- FIM MOBILE -->
 
-<!-- DESKTOP -->
+  <!-- DESKTOP -->
   <div class="container-fluid d-none d-sm-block">
     <div class="row">
       <table cellspacing="0" cellpadding="20"
@@ -591,12 +607,15 @@
       </div>
     </div>
     <div class="row" style="justify-content: center; margin-left: 20px; margin-right:20px ;">
-      <p class="texto_Descrição_Empresas" style="font-size: 18px;"> Fundada em 1974, como Rafael, Valente & Mota, a Multiponto, dedicou-se no
-        inicio da sua actividade em exclusivo aos serviços de pré-impressão. Com o passar dos anos e as mudanças ocorridas no
+      <p class="texto_Descrição_Empresas" style="font-size: 18px;"> Fundada em 1974, como Rafael, Valente & Mota, a
+        Multiponto, dedicou-se no
+        inicio da sua actividade em exclusivo aos serviços de pré-impressão. Com o passar dos anos e as mudanças
+        ocorridas no
         sector das Artes Gráficas, foi alargando o seu âmbito de acção estando hoje capacitada a dar resposta nas áreas
         referidas. <br> <br>
         Hoje é uma empresa capacitada a dar resposta nas áreas da impressão digital de grandes e pequenos formatos,
-        rótulos e etiquetas com elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e respectivos acabamentos.
+        rótulos e etiquetas com elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e
+        respectivos acabamentos.
       </p>
     </div>
 
@@ -638,7 +657,7 @@
       </div>
     </div>
 
-<!-- DESCRIÇÃO DIGIPRESS -->
+    <!-- DESCRIÇÃO DIGIPRESS -->
     <div class="row" style="justify-content: center;">
       <div class="logo_Centrado_Multi">
         <img src="wp-content/logo digipress New_pequeno.png" width="250" height="auto"
@@ -646,7 +665,8 @@
       </div>
     </div>
     <div class="row" style="justify-content: center; margin-left: 20px; margin-right:20px ;">
-      <p class="texto_Descrição_Empresas" style="font-size: 18px;"> Prestes a completar 20 anos de actividade, a Digipress, mantendo-se fiel à
+      <p class="texto_Descrição_Empresas" style="font-size: 18px;"> Prestes a completar 20 anos de actividade, a
+        Digipress, mantendo-se fiel à
         matriz
         que inspirou a sua criação – a impressão digital em grandes formatos – vai iniciar uma nova fase de actividade,
         alargando a sua área à produção de rótulos e etiquetas com elevado padrão de qualidade. <br> <br>
@@ -669,11 +689,13 @@
     </div>
     <div class="row" style="justify-content: center;">
       <p class="texto_Descrição_Empresas"> Fundada em 1974, como Rafael, Valente & Mota, a Multiponto, dedicou-se no
-        inicio da sua actividade em exclusivo aos serviços de pré-impressão. Com o passar dos anos e as mudanças ocorridas no
+        inicio da sua actividade em exclusivo aos serviços de pré-impressão. Com o passar dos anos e as mudanças
+        ocorridas no
         sector das Artes Gráficas, foi alargando o seu âmbito de acção estando hoje capacitada a dar resposta nas áreas
         referidas. <br> <br>
         Hoje é uma empresa capacitada a dar resposta nas áreas da impressão digital de grandes e pequenos formatos,
-        rótulos e etiquetas com elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e respectivos acabamentos.
+        rótulos e etiquetas com elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e
+        respectivos acabamentos.
       </p>
     </div>
 
@@ -740,36 +762,36 @@
   <!-- FIM DESKTOP -->
 
 
-
   <!-- INICIO DE FORMULARIO DE CONTACTO -->
-<!-- MOBILE -->
-<div class="container-fluid d-sm-block d-md-none">
-<hr  size="1" style="border:4px dashed  #cfcabe57; margin-right:50px;margin-left:50px; margin-top: 50px;">
+  <!-- MOBILE -->
+  <div class="container-fluid d-sm-block d-md-none">
+    <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:50px;margin-left:50px; margin-top: 50px;">
 
-<div style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-top: 20px;">
-  contacte-nos 
-</div>
+    <div
+      style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-top: 20px;">
+      contacte-nos
+    </div>
 
-<p
-  style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-top: 20px;">
-  Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.</p>
+    <p
+      style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-top: 20px;">
+      Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.</p>
 
-</div>
-<!-- FIM MOBILE -->
-
+  </div>
+  <!-- FIM MOBILE -->
 
 
   <!-- DESKTOP -->
   <div class="container-fluid d-none d-sm-block">
-  <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 50px;">
+    <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 50px;">
 
-  <div style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
-    contacte-nos 
-  </div>
+    <div
+      style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
+      contacte-nos
+    </div>
 
-  <p
-    style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
-    Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.</p>
+    <p
+      style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
+      Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.</p>
   </div>
   <!-- COM ROW -->
   <!-- <div class="row">
@@ -788,6 +810,47 @@
   <p class="meialinha" style="margin-top: 40px;"> </p>
 
   <!-- FORMULARIO -->
+<!-- VERSÃO MOBILE -->
+<div class="container-fluid d-sm-block d-md-none" style="padding-top: 10px; padding-bottom: 30px; background-color: #cfcabe57;">
+  <div class="row" style="padding-left: 0px; padding-top: 20px;">
+      <div class="formulario_contacto_Elfsight">
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-ad1310a6-3076-47d1-a359-7e8d91400245" data-elfsight-app-lazy></div>
+      </div>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="350" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=Rua%20da%20F%C3%A1brica,%20260%204585-013%20Baltar%20Paredes&#038;t=k&#038;z=15&#038;ie=UTF8&#038;iwloc=&#038;output=embed"
+            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+          <a href="https://123movies-a.com/"></a><br>
+          <style>
+            .mapouter {
+              position: relative;
+              text-align: right;
+              height: 370px;
+              width: 600px;
+              margin-left: 0px;
+            }
+          </style>
+          <a href="https://www.embedgooglemap.net/"> Google Maps</a>
+          <style>
+            .gmap_canvas {
+              overflow: hidden;
+              background: none !important;
+              height: 600px;
+              width: 600px;
+            }
+          </style>
+        </div>
+      </div>
+  </div>
+</div>
+<!-- FIM VERSÃO MOBILE -->
+
+
+
+
+  <!-- VERSÂO DESKTOP -->
   <!-- ###################### -->
   <div class="container-fluid" style="padding-top: 10px; padding-bottom: 30px; background-color: #cfcabe57;">
     <div class="row" style="padding-left: 0px; padding-top: 20px;">
@@ -828,22 +891,23 @@
     </div>
   </div>
   <!-- #################### -->
+   <!-- FIM VERSÃO DESKTOP -->
 
   <!-- GOOGLE TRADUTOR -->
-
-   <!-- VERSAO DESKTOP -->
-   <div class="container-fluid d-none d-sm-block">
-  <div id="google_translate_element" style="margin-left: 150px; margin-top: 40px;"></div>
-  <script>
-    function googleTranslateElementInit() {
-      new google.translate.TranslateElement({
-        pageLanguage: 'en'
-      }, 'google_translate_element');
-    }
-  </script>
-  <script type="text/javascript"
-    src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-   </div>
+  <!-- APENAS NA VERSÃO DESKTOP -->
+  <!-- VERSAO DESKTOP -->
+  <div class="container-fluid d-none d-sm-block">
+    <div id="google_translate_element" style="margin-left: 150px; margin-top: 40px;"></div>
+    <script>
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en'
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript"
+      src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </div>
 
 
 
@@ -911,4 +975,5 @@
   <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script> -->
 
 </body>
+
 </html>
