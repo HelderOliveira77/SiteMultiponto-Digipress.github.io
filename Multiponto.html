@@ -17,13 +17,13 @@
   <link rel="stylesheet" type="text/css"
     href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/animate.css">
 </head>
 
 
 <body>
   <!-- CABEÇALHOS -->
-   <header>
+  <header>
     <!-- ANTIGO -->
     <!-- <div class='topo' style="margin-top: 5px; margin-left: 5px; margin-right: 5px;">
       <img src="wp-content/logo multiponto_pequeno.png" width="270" height="51" /> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
@@ -43,8 +43,8 @@
         <a href="Serviços.html" class="texto_cabecalho" style="margin-right: 5px;"> Serviços </a>
       </div>
     </div> -->
-     <!-- <header> -->
-      <!-- <div class='topo' style="margin-top: 5px; margin-left: 5px; margin-right: 5px;">
+    <!-- <header> -->
+    <!-- <div class='topo' style="margin-top: 5px; margin-left: 5px; margin-right: 5px;">
         <div class="row">
           <div class="col-1" style="display:contents;">
             <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="51" style="padding-right: 50px;" />
@@ -87,136 +87,181 @@
         </div>
       </div>
     </header>  -->
-   
-  <!-- COLOCAR DATA ATUAL -->
-  <h3 style="font-size:11px; color: #A4A4A4; padding-top: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    <script type="text/javascript">
-      var currentTime = new Date()
-      var horas = currentTime.getHours();
-      var minutos = currentTime.getMinutes();
-      var segundos = currentTime.getSeconds();
-      var dia = currentTime.getDate();
-      var mes = currentTime.getMonth();
-      var ano = currentTime.getFullYear();
-      var Dia = currentTime.getDay();
-      var Mes = currentTime.getUTCMonth();
-      if (minutos < 10)
-        minutos = "0" + minutos
-      if (segundos < 10)
-        segundos = "0" + segundos
-      if (dia < 10)
-        dia = "0" + dia
-      if (mes < 10)
-        mes = "0" + mes
-      arrayDia = new Array();
-      arrayDia[0] = "Domingo";
-      arrayDia[1] = "Segunda-Feira";
-      arrayDia[2] = "Terça-Feira";
-      arrayDia[3] = "Quarta-Feira";
-      arrayDia[4] = "Quinta-Feira";
-      arrayDia[5] = "Sexta-Feira";
-      arrayDia[6] = "Sábado";
 
-      var arrayMes = new Array();
-      arrayMes[0] = "Janeiro";
-      arrayMes[1] = "Fevereiro";
-      arrayMes[2] = "Março";
-      arrayMes[3] = "Abril";
-      arrayMes[4] = "Maio";
-      arrayMes[5] = "Junho";
-      arrayMes[6] = "Julho";
-      arrayMes[7] = "Agosto";
-      arrayMes[8] = "Setembro";
-      arrayMes[9] = "Outubro";
-      arrayMes[10] = "Novembro";
-      arrayMes[11] = "Dezembro";
-      document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
-    </script>
-  </h3>
+    <!-- COLOCAR DATA ATUAL -->
+    <h3 style="font-size:11px; color: #A4A4A4; padding-top: 10px;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <script type="text/javascript">
+        var currentTime = new Date()
+        var horas = currentTime.getHours();
+        var minutos = currentTime.getMinutes();
+        var segundos = currentTime.getSeconds();
+        var dia = currentTime.getDate();
+        var mes = currentTime.getMonth();
+        var ano = currentTime.getFullYear();
+        var Dia = currentTime.getDay();
+        var Mes = currentTime.getUTCMonth();
+        if (minutos < 10)
+          minutos = "0" + minutos
+        if (segundos < 10)
+          segundos = "0" + segundos
+        if (dia < 10)
+          dia = "0" + dia
+        if (mes < 10)
+          mes = "0" + mes
+        arrayDia = new Array();
+        arrayDia[0] = "Domingo";
+        arrayDia[1] = "Segunda-Feira";
+        arrayDia[2] = "Terça-Feira";
+        arrayDia[3] = "Quarta-Feira";
+        arrayDia[4] = "Quinta-Feira";
+        arrayDia[5] = "Sexta-Feira";
+        arrayDia[6] = "Sábado";
+
+        var arrayMes = new Array();
+        arrayMes[0] = "Janeiro";
+        arrayMes[1] = "Fevereiro";
+        arrayMes[2] = "Março";
+        arrayMes[3] = "Abril";
+        arrayMes[4] = "Maio";
+        arrayMes[5] = "Junho";
+        arrayMes[6] = "Julho";
+        arrayMes[7] = "Agosto";
+        arrayMes[8] = "Setembro";
+        arrayMes[9] = "Outubro";
+        arrayMes[10] = "Novembro";
+        arrayMes[11] = "Dezembro";
+        document.write(arrayDia[Dia] + ", " + dia + " de " + arrayMes[Mes] + " de " + ano);
+      </script>
+    </h3>
 
 
     <!-- MODO MOBILE -->
-	<nav class="navbar navbar-light bd-light d-block d-sm-block d-md-none">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu-fixo" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  <div class="collapse navbar-collapse align-center" id="menu-fixo">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link text-uppercase scroll" href="Multiponto.html" style="font-size: 22px; color: white; text-decoration: none; " > Home </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-uppercase scroll" href="Multiponto.html" style="font-size: 22px; color: white; text-decoration: none; " > Multiponto </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link scroll text-uppercase" href="Digipress.html" style="font-size: 22px; color: white; text-decoration: none; " > Digipress </a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link scroll text-uppercase " href="Contactos.html" style="font-size: 22px; color: white; text-decoration: none; " > Contactos </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link scroll text-uppercase" href="Serviços.html" style="font-size: 22px; color: white; text-decoration: none; " > Serviços </a>
-      </li>			
-    </ul>
-  </div>		
-  </nav>
-  <!-- FIM MODO MOBILE -->
+    <div class="container-fluid d-sm-block d-md-none">
+      <div class="row" style="justify-content: center;">
+        <div class="logo_Centrado_Multi" style="margin-top: 30px;">
+          <img src="wp-content/logo multiponto&digipress_pequeno.png" width="auto" height="34"
+            style="align-items: center; align-content: center;" />
+        </div>
+      </div>
+    </div>
 
- <div class=" banner row">
-  <div class="d-none d-sm-none d-md-block col-md-12" style="padding-top:10px;padding-bottom:0px;">
-    <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 30px;"> 
-      <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="60" style="padding-right: 50px;" />  
-    </h1>
-    <!-- <h1 class="animated lightSpeedIn text-center"> 
+    <!-- ESTÁ ASSUMIR O CABEÇALHO NO DESKTOP -->
+    <!-- <nav class="navbar navbar-light bd-light d-block d-sm-block d-md-none">
+      <div class="collapse navbar-collapse align-center" id="menu-fixo">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase scroll" href="Multiponto.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Home </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase scroll" href="Multiponto.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Multiponto </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link scroll text-uppercase" href="Digipress.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Digipress </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link scroll text-uppercase " href="Contactos.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Contactos </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link scroll text-uppercase" href="Serviços.html"
+              style="font-size: 22px; color: white; text-decoration: none; "> Serviços </a>
+          </li>
+        </ul>
+      </div>
+    </nav> -->
+
+    <!-- FIM MODO MOBILE -->
+
+    <!-- VERSAO DESKTOP -->
+    <div class=" banner row">
+      <div class="d-none d-sm-none d-md-block col-md-12" style="padding-top:10px;padding-bottom:0px;">
+        <h1 class="animated lightSpeedIn text-center" style="margin-bottom: 30px;">
+          <img src="wp-content/logo multiponto_pequeno.png" width="auto" height="60" style="padding-right: 50px;" />
+        </h1>
+        <!-- <h1 class="animated lightSpeedIn text-center"> 
       <img src="wp-content/logo digipress New_pequeno.png" width="auto" height="60" />  
     </h1> -->
-    <!-- <h4 class="animated fadeIn text-center">Desenvolvedora Web</h4> -->
-  </div>
-</div>	
+        <!-- <h4 class="animated fadeIn text-center">Desenvolvedora Web</h4> -->
+      </div>
+    </div>
 
-<div class='topo' style="margin-top: 20px; margin-left: 5px; margin-right: 5px;">
-  <ul class="nav justify-content-center">
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" aria-current="page" href="index.html"  > 
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
-          Início</button> </a>
-    </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" aria-current="page" href="Multiponto.html" >
-      <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
-         Multiponto </button> </a>
-    </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Digipress.html" >
-      <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-        Digipress </button> </a>
-   </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Contactos.html" >
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-          Contactos </button> </a>
-     </li>
-    <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
-      <a class="nav-link" href="Serviços.html" >
-        <button type="button" class="btn btn-outline-secondary" style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
-          Serviços </button> </a>
-     </li>
-  </ul>
- </div> 
+    <div class='topo' style="margin-top: 20px; margin-left: 5px; margin-right: 5px;">
+      <ul class="nav justify-content-center">
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" aria-current="page" href="index.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;  ">
+              Início</button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" aria-current="page" href="Multiponto.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase;">
+              Multiponto </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Digipress.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Digipress </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Contactos.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Contactos </button> </a>
+        </li>
+        <li class="nav-item" style="padding-left: 30px; padding-right: 30px;">
+          <a class="nav-link" href="Serviços.html">
+            <button type="button" class="btn btn-outline-secondary"
+              style="font-size: 18px; letter-spacing: 1px; color:#A4A4A4; text-decoration: none; vertical-align: top; border: 0px; text-transform: uppercase; ">
+              Serviços </button> </a>
+        </li>
+      </ul>
+    </div>
 
-
- <hr size="1" style="border:0.5px solid #A4A4A4; margin-right:170px;margin-left:170px; margin-top: 5px;">
-</header>
-
-
+    <hr size="1" style="border:0.5px solid #A4A4A4; margin-right:170px;margin-left:170px; margin-top: 5px;">
+    <!-- FIM VERSAO DESKTOP -->
   </header>
 
   <p class="meialinha"> </p>
 
 
 
+
+
   <!-- INFORMAÇÃO SERVIÇOS MULTIPNTO -->
-  <div class="container-fluid" style="padding-top: 50px; padding-bottom: 10px;">
+  <!-- MOBILE -->
+  <div class="container-fluid d-sm-block d-md-none" style="padding-top: 50px; padding-bottom: 10px;">
+    <ul>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;"> PRÉ-IMPRESSÃO </p>
+      </li>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;" > IMPRESSÃO DIGITAL </p>
+      </li>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;" >  IMPRESSÃO OFFSET </p>
+      </li>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;" > ROTATIVA </p>
+      </li>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;" >  ETIQUETAS E RÓTULOS </p>
+      </li>
+      <li>
+        <p class="texto_Servicos_Multiponto" style="font-size: 16px;" > ACABAMENTOS </p>
+      </li>
+    </ul>
+  </div>
+  <!-- FIM DA VERSAO MOBILE -->
+
+
+  <!-- VERSAO DESKTOP -->
+  <div class="container-fluid d-none d-sm-block" style="padding-top: 50px; padding-bottom: 10px;">
     <div class="row">
       <table align="center" style="margin-bottom: 75px; margin-top: 40px;">
         <tr>
@@ -242,6 +287,11 @@
       </table>
     </div>
   </div>
+  <!-- FIM DA VERSAO DESKTOP -->
+
+
+
+
 
   <!-- CARROSSEL -->
   <div class="container-fluid" style="padding-top: 0px; padding-bottom: 0px;">
@@ -351,15 +401,16 @@
   </div> -->
   <div class="container-fluid">
     <div class="row" style="justify-content: center; margin-top: 50px;">
-        <img src="wp-content/logo multiponto_pequeno.png" width="450" height="auto"
-          style="align-items: center; align-content: center; margin-bottom: 20px; opacity: 10%; " />
+      <img src="wp-content/logo multiponto_pequeno.png" width="450" height="auto"
+        style="align-items: center; align-content: center; margin-bottom: 20px; opacity: 10%; " />
     </div>
     <div class="row" style="justify-content: center;">
       <p class="texto_Descrição_Empresas"> A <strong> Multiponto </strong> é uma empresa capacitada a
         dar resposta nas áreas da impressão digital de grandes e pequenos formatos, rótulos e etiquetas com
-        elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e respectivos acabamentos. <br> <br>
+        elevado padrão de qualidade, impressão em OFFSET plano e impressão em rotativas e respectivos acabamentos. <br>
+        <br>
 
-   Fundada em 1974, como Rafael, Valente & Mota, dedicou-se no inicio da sua actividade em exclusivo aos
+        Fundada em 1974, como Rafael, Valente & Mota, dedicou-se no inicio da sua actividade em exclusivo aos
         serviços de pré-impressão. Com o passar dos anos e as mudanças ocorridas no sector das Artes Gráficas, foi
         alargando o seu âmbito de acção estando hoje capacitada a dar resposta nas áreas referidas. <br> <br>
 
@@ -373,10 +424,10 @@
     <!-- VIDEO MULTIPONTO -->
     <div class="row" style="justify-content: center;">
       <video style="padding-left: 0px; padding-top: 30px; max-width: 30%;" controls preload="auto"
-      poster="wp-content/Videos/Imagens Capas Videos MULT.png" data-setup='{"example_option":true}'>
-      <source src="wp-content/Videos/Video Multiponto&Digipress_Low_Cortado.mp4" type='video/mp4'
-        style="max-width: 30%;">
-    </video>
+        poster="wp-content/Videos/Imagens Capas Videos MULT.png" data-setup='{"example_option":true}'>
+        <source src="wp-content/Videos/Video Multiponto&Digipress_Low_Cortado.mp4" type='video/mp4'
+          style="max-width: 30%;">
+      </video>
     </div>
   </div>
 
@@ -386,16 +437,19 @@
   <!-- INICIO DE FORMULARIO DE CONTACTO -->
   <hr size="1" style="border:4px dashed  #cfcabe57; margin-right:170px;margin-left:170px; margin-top: 50px;">
 
-  <div style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
-    contacte-nos 
+  <div
+    style="font-size: 42px; color: #CFCABE; font-weight: bold; font-family: 'Arial Narrow', Arial, sans-serif; letter-spacing: -0.5px; height: 34px; margin-left: 165px; margin-top: 20px;">
+    contacte-nos
   </div>
-  <p style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
+  <p
+    style="font-size:19px;font-style:normal;font-weight:500;letter-spacing:0.3px; text-align:justify; font-family: 'Arial Narrow', Arial, sans-serif; color:#544d4d; margin-left: 165px; margin-top: 20px;">
     Se pretender ser contactado escreva-nos. Faça-nos a sua consulta que brevemente lhe responderemos. Obrigado.
   </p>
 
   <!-- FORMULARIO -->
   <!-- ###################### -->
-  <div class="container-fluid d-none d-sm-block" style="padding-top: 10px; padding-bottom: 30px; background-color: #cfcabe57;">
+  <div class="container-fluid d-none d-sm-block"
+    style="padding-top: 10px; padding-bottom: 30px; background-color: #cfcabe57;">
     <div class="row" style="padding-left: 0px; padding-top: 20px;">
       <div class="col-xs-3" style="width: 65%;">
         <div class="formulario_contacto_Elfsight">
@@ -448,18 +502,65 @@
     src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- RODAPE -->
+  <!-- MOBILE -->
+  <div class="container-fluid d-sm-block d-md-none" style="background-color: #CFCABE;">
+    <ul style="list-style: none; text-align: left; position:relative; left:-20px; margin-bottom: 10px;">
+      <li>
+        <p class=" texto_rodape" style="font-size: 12px; line-height: 16px; margin-top: 0px;">
+          <strong> <br> Contactos </strong> <br>
+          Instalações Industriais: <br>
+          Rua da Fábrica, 260 <br>
+          4585-013 Baltar Paredes <br>
+          Telef: +351 225 193 400 (chamada para a rede fixa nacional)
+        </p>
+      </li>
+      <li>
+        <p class="texto_rodape" style="font-size: 12px; line-height: 18px; margin-top: 15px;">
+          <strong> Sobre </strong> <br>
+          <a href="Multiponto.html" target="_blank" style="text-decoration: none; color: #636363;"> MULTIPONTO
+          </a>
+          <br>
+          <a href="Digipress.html" target="_blank" style="text-decoration: none; color: #636363;"> DIGIPRESS </a>
+        </p>
+      </li>
+      <li>
+        <p class="texto_rodape" style="font-size: 12px; line-height: 18px; margin-top: 15px;">
+          <strong> Privacy </strong> <br>
+          Privacy Policy <br>
+          Terms and Conditions <br>
+        </p>
+      </li>
+      <li>
+        <p class="texto_rodape" style="font-size: 12px; line-height: 10px; margin-top: 15px;">
+          <strong> Social </strong> <br>
+        <p> <a href="https://www.facebook.com/?locale=pt_PT" target="_blank"> <img src="wp-content/iconeFacebook.png"
+              width="12%" style="margin-top: -10px;"> </a> &nbsp; &nbsp;
+          <a href="https://www.instagram.com" target="_blank"> <img src="wp-content/iconeInstagram.png" width="8%"
+              style="margin-top: -10px;">
+          </a> &nbsp; &nbsp;
+          <a href="https://x.com/?lang=pt\u0026mx=2" target="_blank"> <img src="wp-content/iconeX.png" width="8%"
+              style="margin-top: -10px;">
+          </a>
+        </p>
+        </p>
+      </li>
+    </ul>
+  </div>
+  <!-- FIM VERSAO MOBILE -->
+
+
   <footer>
-    <div class="container-fluid" style="background-color: #CFCABE; margin-top: 30px;">
+    <div class="container-fluid d-none d-sm-block" style="background-color: #CFCABE; margin-top: 30px;">
       <div class="row justify-content-md-center">
         <div class="col col-lg-2">
           <p> <a href="Multiponto.html" target="_blank"> <img src="wp-content/logo multiponto_pequeno.png"
-                style="margin-top: 60px; " width="272" height="50" /> </a> 
-              </p>
+                style="margin-top: 60px; " width="272" height="50" /> </a>
+          </p>
         </div>
         <div class="col col-lg-2">
           <p> <a href="Digipress.html" target="_blank"> <img src="wp-content/logo digipress New_pequeno.png"
-                style="margin-top: 60px;" width="175" height="50"> </a> 
-              </p>
+                style="margin-top: 60px;" width="175" height="50"> </a>
+          </p>
         </div>
         <div class="col col-lg-3">
           <p class=" texto_rodape" style=" margin-top: 40px ;">
@@ -511,6 +612,7 @@
   <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <script src="js/scripts.js"> </script>
 
-  
+
 </body>
+
 </html>
